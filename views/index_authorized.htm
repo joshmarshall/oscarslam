@@ -1,0 +1,64 @@
+{% extends "base.htm" %}
+{% block body %}
+
+{% set total = sum([c.points for c in categories]) %}
+{% set missed = winners.get_missed_points(votes) %}
+{% set earned = winners.get_points(votes) %}
+{% set remaining = winners.remaining_points %}
+{% set tallied = sum([categories.get(w).points for w in winners.winners]) %}
+
+
+<div class="col-sm-4 col-sm-offset-4">
+
+  {% if tallied %}
+  <div class="tallied-points">
+    <span class="your-points">{{ earned }}</span><span class="tallied"> / {{ tallied }} pt{% if tallied != 1 %}s{% end %}</span>
+  </div>
+  {% end %}
+
+  <div class="progress">
+    <div class="progress-bar progress-bar-success"
+      style="width: {{ int((earned / float(total)) * 100) }}%;"></div>
+    <div class="progress-bar progress-bar-danger"
+      style="width: {{ int((missed / float(total)) * 100) }}%;"></div>
+  </div>
+  <ul class="category-list">
+  {% for category in categories %}
+    {% set category_class = "" %}
+    {% set vote = votes.get_vote(category.key) %}
+    {% set winner = winners.winners.get(category.key) %}
+    {% if winner %}
+      {% if vote == winner %}
+        {% set category_class = "active" %}
+      {% elif vote != winner %}
+        {% set category_class = "wrong" %}
+      {% end %}
+    {% end %}
+    <li class="category {{ category_class }}">
+      <span class="points">
+        {% if winner %}
+          {% if winner == vote %}{{ category.points }}
+          {% else %}0 <span class="out-of-points">/ {{ category.points }}</span>{% end %}
+        {% else %}
+          {{ category.points }}
+        {% end %}
+      </span>
+      <span class="title">{{ category.title }}</span>
+      {% if not winner %}
+        <span class="subtitle">
+          {% if not vote %}<a class="btn btn-primary btn-xs" href="/vote/{{ category.key }}">Vote Now</a>
+          {% else %}YOU: {{ category.nominees.get(vote).title }}{% end %}
+        </span>
+      {% else %}
+        <span class="winner">
+        {% if winner == vote %}&#10003;{% else %}&#x2717;{% end %}
+        {{ category.nominees.get(winner).title }}
+        {% if vote and winner != vote %} (YOU: {{ category.nominees.get(vote).title }}) {% end %}
+        </span>
+      {% end %}
+    </li>
+  {% end %}
+  </ul>
+</div>
+
+{% end %}

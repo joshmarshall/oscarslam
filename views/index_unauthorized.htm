@@ -1,0 +1,30 @@
+{% extends "base.htm" %}
+{% block body %}
+
+  <div class="col-sm-4 col-sm-offset-4">
+    <form method="POST" action="/register">
+      <input placeholder="Your Name" type="text" class="form-control"
+        id="register-name" name="register-name"/>
+      <input placeholder="Your Email" type="email" class="form-control"
+        id="register-email" name="register-email"/>
+      <input placeholder="Your Password" type="password" class="form-control"
+        id="register-password" name="register-password"/>
+
+      <input class="form-control btn btn-block btn-primary" type="submit" value="Register" id="register-submit"/>
+    </form>
+
+    <p><center>-or-</center></p>
+
+    <div class="index-form">
+      <form method="POST" action="/signin" class="form" role="form">
+        <input placeholder="Your Email" type="email" class="form-control"
+          id="signin-email" name="signin-email"/>
+        <input placeholder="Your Password" type="password" class="form-control"
+          id="signin-password" name="signin-password"/>
+
+        <input type="submit" class="form-control btn btn-block btn-primary" value="Sign In" id="signin-submit"/>
+      </form>
+    </div>
+  </div>
+
+{% end %}

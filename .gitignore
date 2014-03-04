@@ -1,0 +1,6 @@
+*.pyc
+*.swo
+ghostdriver.log
+*.db
+.venv
+.env

@@ -1,0 +1,18 @@
+{% extends "base.htm" %}
+
+{% block body %}
+
+
+
+<div class="col-sm-4 col-sm-offset-4">
+  <ul class="category-list">
+    {% for points, user in leaders %}
+    <li class="category">
+      <span class="points">{{ points }}</span>
+      <span class="title">{{ user.name }}</span>
+    </li>
+    {% end %}
+  </ul>
+</div>
+
+{% end %}

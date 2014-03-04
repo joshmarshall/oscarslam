@@ -1,0 +1,10 @@
+argparse==1.2.1
+backports.ssl-match-hostname==3.4.0.2
+mock==1.0.1
+-e git://github.com/joshmarshall/mogo.git@628891b075d2f2af74bed955d92c4168bbbf84ee#egg=mogo-dev
+nose==1.3.0
+pymongo==2.6.3
+selenium==2.40.0
+testnado==0.1.3
+tornado==3.2
+wsgiref==0.1.2

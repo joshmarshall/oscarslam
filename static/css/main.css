@@ -1,0 +1,175 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-brand {
+  margin-left: 20px;
+}
+
+.top-navigation {
+  position: absolute;
+  top: 36px;
+}
+
+.container {
+  clear: both;
+}
+
+h2 {
+  text-align: center;
+}
+
+.menu {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.nav li {
+  display: inline-block;
+  text-align: center;
+}
+
+.form-control {
+  border-radius: 0;
+  margin: 0 0 -1px;
+}
+
+.form-control:first-child {
+  border-radius: 10px 10px 0 0;
+}
+
+.form-control:last-child {
+  border-radius: 0 0 10px 10px;
+}
+
+.nav li a {
+  display: inline-block;
+}
+
+.nominee, .category {
+    clear: both;
+    overflow: auto;
+}
+
+.nominee-image {
+  float: left;
+  margin-right: 14px;
+  clear: both;
+  margin-bottom: 14px;
+}
+
+.nominee-list, .category-list {
+  list-style: none;
+  margin: 0 0 20px;
+  padding: 0;
+}
+
+.nominee, .category {
+  cursor: pointer;
+  padding: 10px;
+  margin: 0;
+  background: #444;
+  border-bottom: 1px dashed #000;
+}
+
+.nominee {
+  min-height: 120px;
+}
+
+.nominee:hover {
+  background: #777;
+}
+
+.nominee:first-child, .category:first-child {
+  border-radius: 10px 10px 0 0;
+}
+
+.nominee:last-child, .category:last-child {
+  border-bottom: 0;
+  border-radius: 0 0 10px 10px;
+}
+
+.nominee.active, .category.active {
+  background: #5cb85c;
+  box-shadow: inset 0 4px 10px rgba(0, 0, 0, 0.3);
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.nominee.wrong, .category.wrong {
+  background: #d9534f;
+}
+
+.nominee .title {
+  font-size: 24px;
+  font-color: #dcb647;
+  line-height: 32px;
+  display: block;
+}
+
+.nominee .subtitle {
+  line-height: 18px;
+  font-size: 12px;
+}
+
+h3, h5 {
+  text-align: center;
+  margin: 10px;
+}
+
+#category-selector {
+  border-radius: 10px 10px 10px 10px;
+}
+
+.category-selector {
+  padding: 20px;
+  display: block;
+}
+
+.category-selector li {
+  color: #000;
+  padding: 0 10px;
+}
+
+.category-selector li.current {
+  background: #AAA;
+}
+
+.category-selector li a:hover {
+  background: #CCC;
+}
+
+.category-selector li.current a:hover {
+  background: #AAA;
+}
+
+.category .title {
+  display: block;
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+.category .subtitle, .category .winner {
+  display: block;
+  font-size: 14px;
+  margin-left: 40px;
+}
+
+.category .points {
+  width: 30px;
+  padding: 0;
+  font-size: 24px;
+  float: left;
+  margin-right: -40px;
+  margin-left: 10px;
+}
+
+.category .points .out-of-points {
+  display: block;
+  font-size: 12px;
+}
+
+.tallied-points {
+  text-align: center;
+  font-size: 24px;
+}

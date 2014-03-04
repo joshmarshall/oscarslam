@@ -1,0 +1,39 @@
+{% extends "base.htm" %}
+
+{% block body %}
+
+<div class="col-sm-4 col-sm-offset-4">
+  <form method="POST" id="winner-form" action="/admin">
+    <input type="hidden" id="category-id" value="" name="category"/>
+    <input type="hidden" id="nominee-id" value="" name="nominee"/>
+  </form>
+
+  {% for category in categories %}
+  <h3>{{ category.title }}</h3>
+  <h5>{{ category.points }} point{% if category.points != 1 %}s{% end %}</h5>
+  <ul class="nominee-list">
+    {% for nominee in category.nominees %}
+    <li class="nominee {% if nominee.key == winners.winners.get(category.key) %}active{% end %}"
+      data-nominee-id="{{ nominee.key }}" data-category-id="{{ category.key}}">
+        <img width="60" class="nominee-image"  src="{{ nominee.image_url() }}"/>
+        <span class="title">{{ nominee.title }}</span>
+        <span class="subtitle">{{ nominee.subtitle }}</span>
+    </li>
+    {% end %}
+  </ul>
+  {% end for %}
+
+</div>
+
+{% end %}
+
+{% block extra_scripts %}
+<script>
+  $(".nominee").click(function() {
+    var el = $(this);
+    $("#category-id").val(el.data("category-id"));
+    $("#nominee-id").val(el.data("nominee-id"));
+    $("#winner-form").submit();
+  })
+</script>
+{% end block %}
