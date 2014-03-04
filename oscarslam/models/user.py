@@ -1,15 +1,11 @@
 import hashlib
 import re
-import string
 import uuid
 
 from norm.field import Field
 from norm.model import Model
 
 from oscarslam import config
-
-
-_LETTERS = "".join(string.letters + string.digits)
 
 
 def hash_password(password):
