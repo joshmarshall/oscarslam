@@ -8,20 +8,20 @@ from norm.model import Model
 from oscarslam import config
 
 
-def hash_password(password):
+def hash_password(_, password):
     if len(password) < 6:
         raise InvalidValue("invalid_password")
     new_password = "{}{}".format(config.PASSWORD_SALT, password)
     return hashlib.sha512(new_password).hexdigest()
 
 
-def validate_name(name):
+def validate_name(_, name):
     if len(name) < 3:
         raise InvalidValue("invalid_name")
     return name
 
 
-def validate_email(email):
+def validate_email(_, email):
     email = email.lower()
     if not re.match("^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,10}$", email):
         raise InvalidValue("invalid_email")
@@ -50,7 +50,7 @@ class User(Model):
         return self.email
 
     def authenticate(self, password):
-        return self.password == hash_password(password)
+        return self.password == hash_password(self, password)
 
 
 class Token(Model):
