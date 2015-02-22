@@ -20,31 +20,35 @@ class Winner(Model):
 
     def get_points(self, votes):
         points = 0
+        categories = CATEGORIES.contest(self.contest)
         for category, vote in votes.votes.items():
             if vote == self.winners.get(category):
-                points += CATEGORIES.get(category).points
+                points += categories.get(category).points
         return points
 
     def get_missed_points(self, votes):
         points = 0
+        categories = CATEGORIES.contest(self.contest)
         for category, vote in votes.votes.items():
             if self.winners.get(category) and \
                     vote != self.winners.get(category):
-                points += CATEGORIES.get(category).points
+                points += categories.get(category).points
         return points
 
     @property
     def remaining_points(self):
         points = 0
-        for category in CATEGORIES:
+        categories = CATEGORIES.contest(self.contest)
+        for category in categories:
             if category.key not in self.winners:
                 points += category.points
         return points
 
     @property
     def progress(self):
-        categories = 0
-        for category in CATEGORIES:
+        category_count = 0
+        categories = CATEGORIES.contest(self.contest)
+        for category in categories:
             if category.key in self.winners:
-                categories += 1
-        return float(categories) / len(CATEGORIES)
+                category_count += 1
+        return float(category_count) / len(categories)

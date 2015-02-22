@@ -1,5 +1,6 @@
 from testnado.browser_session import wrap_browser_session
 
+from oscarslam import config
 from tests.helpers import HandlerTestCase
 
 
@@ -13,4 +14,5 @@ class TestSignin(HandlerTestCase):
         driver.find_element_by_id("signin-submit").click()
 
         # should ultimately land on homepage
-        self.assertTrue(driver.current_url.endswith("/?message=welcome"))
+        self.assertTrue(driver.current_url.endswith(
+            "/contests/{0}?message=welcome".format(config.CONTEST_ID)))

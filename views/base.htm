@@ -2,23 +2,25 @@
 <html lang="en">
   <head>
     <title>OscarSlam</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <link rel="icon" sizes="192x192" href="/static/images/oscarslam_mobile_icon_192.png"/>
+    <link rel="icon" sizes="128x128" href="/static/images/oscarslam_mobile_icon_128.png"/>
+    <link rel="icon" type="image/png" href="/static/images/oscarslam_mobile_icon_64.png"/>
+    <link rel="apple-touch-icon" sizes="128x128" href="/static/images/oscarslam_mobile_icon_128.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="128x128" href="/static/images/oscarslam_mobile_icon_128.png"/>
     <link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     <link href="/static/css/main.css" rel="stylesheet" type="text/css"/>
     <!--<link href="/static/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"/>-->
     <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100|Alegreya+Sans:300,700,500italic' rel='stylesheet' type='text/css'>
   </head>
 
-  <body>
+  <body data-contest-id="{% block contest_id %}{% end %}">
     <div class="site-wrapper">
-        <h2>OscarSlam</h2>
-        </div>
-        <ul class="nav menu">
-          <li class="active"><a href="/">Home</a></li>
-          <li><a href="/vote">Vote</a></li>
-          <li><a href="/leaders">Leaders</a></li>
-        </ul>
-      </div>
+      <h2><a href="/">OscarSlam</a></h2>
+      {% block nav %}{% end %}
 
       <div class="container clearfix">
         <div class="row">
@@ -33,11 +35,40 @@
           <li><a href="/logout">Logout</a></li>
         </ul>
       </div>
+      <div id="oscarslam-modal" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-sm">
+          <div class="modal-content">
+            <div class="modal-body">
+              <div id="modal-content">This is modal content.</div>
+            </div>
+            <div class="modal-footer">
+              <a href="#" class="btn btn-sm" data-dismiss="modal">Close</a>
+              <a href="#" id="modal-submit" class="btn btn-sm btn-primary">Submit</a>
+            </div>
+          </div>
+        </div>
+      </div>
 
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/static/js/events.js"></script>
+    <script type="text/javascript">
+    // because iOS app mode is stupid
+    $(document).ready(function(){
+      if (("standalone" in window.navigator) && window.navigator.standalone) {
+        $(document).on('click', 'a', function(e){
+          e.preventDefault();
+          var new_location = $(this).attr('href');
+          if (new_location != undefined && new_location.substr(0, 1) != '#' && $(this).attr('data-method') == undefined){
+            window.location = new_location;
+          }
+        });
+      }
+    });
+    </script>
+
     {% block extra_scripts %}{% end %}
   </body>
 </html>

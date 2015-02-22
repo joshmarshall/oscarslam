@@ -1,8 +1,9 @@
 from testnado.browser_session import wrap_browser_session
 
-from tests.helpers import HandlerTestCase
-
+from oscarslam import config
 from oscarslam.models.user import User
+
+from tests.helpers import HandlerTestCase
 
 
 class TestRegister(HandlerTestCase):
@@ -21,4 +22,5 @@ class TestRegister(HandlerTestCase):
         self.assertEqual("Foo Bar", user.name)
         self.assertTrue(user.authenticate("foobar"))
         # should ultimately land on homepage
-        self.assertTrue(driver.current_url.endswith("/"))
+        self.assertTrue(driver.current_url.endswith(
+            "/contests/{0}".format(config.CONTEST_ID)))

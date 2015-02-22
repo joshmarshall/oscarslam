@@ -1,11 +1,17 @@
 import hashlib
 import re
+import time
+import urllib
+import urlparse
 import uuid
 
 from norm.field import Field
 from norm.model import Model
 
 from oscarslam import config
+
+# an hour is plenty. read your email.
+_RESET_EXPIRATION = 3600
 
 
 def hash_password(_, password):
@@ -48,6 +54,31 @@ class User(Model):
     @property
     def id(self):
         return self.email
+
+    def generate_reset_password_url(self, base_url, expiration=None):
+        expiration = str(int(expiration or time.time() + _RESET_EXPIRATION))
+        signature = hashlib.sha256(
+            base_url + self.email + self.password + self.token +
+            expiration + config.PASSWORD_SALT).hexdigest()
+
+        # won't be friendly with query parameters.
+        url = "{0}?{1}".format(base_url, urllib.urlencode({
+            "reset_signature": signature,
+            "reset_expiration": expiration,
+            "reset_email": self.email
+        }))
+        return url
+
+    def verify_reset_password_url(self, signed_url):
+        base_url, query_arguments = signed_url.split("?")
+        query_parameters = dict([
+            (k, v) for k, v in urlparse.parse_qsl(query_arguments)
+        ])
+        expiration = query_parameters["reset_expiration"]
+        if int(expiration) < time.time():
+            return False
+        generated_url = self.generate_reset_password_url(base_url, expiration)
+        return signed_url == generated_url
 
     def authenticate(self, password):
         return self.password == hash_password(self, password)

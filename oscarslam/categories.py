@@ -1,9 +1,9 @@
 import json
-import os
-import oscarslam.config
+
+from oscarslam import config
 
 
-class _Categories(object):
+class _Contest(object):
 
     def __init__(self, categories, points):
         self._categories = dict([(v["key"], v) for v in categories])
@@ -72,40 +72,20 @@ class _Nominee(object):
         return self._nominee["image_url"]
 
 
-CATEGORIES = []
+class Categories(object):
+
+    def __init__(self):
+        self.contests = {}
+        for contest_id, path in config.CONTESTS.items():
+            with open(path) as contest_fp:
+                contest_data = json.loads(contest_fp.read())
+                categories = contest_data["categories"]
+                points = contest_data["points"]
+                contest = _Contest(categories, points)
+                self.contests[contest_id] = contest
+
+    def contest(self, contest_id):
+        return self.contests[contest_id]
 
 
-if os.path.exists(oscarslam.config.CATEGORIES_PATH):
-    with open(oscarslam.config.CATEGORIES_PATH) as categories_fp:
-        CATEGORIES = json.loads(categories_fp.read())
-
-
-POINTS = {
-    "best-picture": 8,
-    "directing": 5,
-    "actor-in-a-leading-role": 5,
-    "actress-in-a-leading-role": 5,
-    "animated-feature-film": 5,
-    "documentary-feature": 5,
-    "foreign-language-film": 4,
-    "writing-original-screenplay": 4,
-    "writing-adapted-screenplay": 4,
-    "actor-in-a-supporting-role": 4,
-    "actress-in-a-supporting-role": 4,
-    "film-editing": 3,
-    "cinematography": 3,
-    "music-original-song": 3,
-    "music-original-score": 3,
-    "short-film-animated": 3,
-    "short-film-live-action": 3,
-    "costume-design": 2,
-    "production-design": 2,
-    "documentary-short-subject": 2,
-    "makeup-and-hairstyling": 2,
-    "sound-editing": 2,
-    "sound-mixing": 2,
-    "visual-effects": 2
-}
-
-
-CATEGORIES = _Categories(CATEGORIES, POINTS)
+CATEGORIES = Categories()

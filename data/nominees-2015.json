@@ -1,0 +1,1021 @@
+{
+  "categories": [
+    {
+      "key": "writing-original-screenplay",
+      "nominees": [
+        {
+          "image": "oscar2015mp1-writing-original-screenplay-birdman-or-the-unexpected-virtue-of-ignorance",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/f9bcd504-fb4a-4f0b-a26d-ccf69251ddc9/dim/194x290.jpg",
+          "key": "birdman-or-the-unexpected-virtue-of-ignorance",
+          "subtitle": "Written by Alejandro G. I\u00f1\u00e1rritu, Nicol\u00e1s Giacobone, Alexander Dinelaris, Jr. & Armando Bo",
+          "title": "Birdman or (The Unexpected Virtue of Ignorance)"
+        },
+        {
+          "image": "oscar2015mp1-writing-original-screenplay-boyhood",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/c8433c59-fbf0-46b9-a31b-d40536a48290/dim/194x290.jpg",
+          "key": "boyhood",
+          "subtitle": "Written by Richard Linklater",
+          "title": "Boyhood"
+        },
+        {
+          "image": "oscar2015mp1-writing-original-screenplay-foxcatcher",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/5ac577ee-a22d-4044-be93-7d81a53484cc/dim/194x290.jpg",
+          "key": "foxcatcher",
+          "subtitle": "Written by E. Max Frye and Dan Futterman",
+          "title": "Foxcatcher"
+        },
+        {
+          "image": "oscar2015mp1-writing-original-screenplay-the-grand-budapest-hotel",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/55e1ad71-0b0d-4c53-91f2-3d1986e1b479/dim/194x290.jpg",
+          "key": "the-grand-budapest-hotel",
+          "subtitle": "Screenplay by Wes Anderson; Story by Wes Anderson & Hugo Guinness",
+          "title": "The Grand Budapest Hotel"
+        },
+        {
+          "image": "oscar2015mp1-writing-original-screenplay-nightcrawler",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/fcec248b-1b8d-446a-b017-80d1642cbc7d/dim/194x290.jpg",
+          "key": "nightcrawler",
+          "subtitle": "Written by Dan Gilroy",
+          "title": "Nightcrawler"
+        }
+      ],
+      "title": "Writing (Original Screenplay)"
+    },
+    {
+      "key": "film-editing",
+      "nominees": [
+        {
+          "image": "oscar2015mp1-film-editing-american-sniper",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/0605d238-5cc4-431b-ae3c-e73789a4106d/dim/194x290.jpg",
+          "key": "american-sniper",
+          "subtitle": "Joel Cox and Gary D. Roach",
+          "title": "American Sniper"
+        },
+        {
+          "image": "oscar2015mp1-film-editing-boyhood",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/c8433c59-fbf0-46b9-a31b-d40536a48290/dim/194x290.jpg",
+          "key": "boyhood",
+          "subtitle": "Sandra Adair",
+          "title": "Boyhood"
+        },
+        {
+          "image": "oscar2015mp1-film-editing-the-grand-budapest-hotel",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/55e1ad71-0b0d-4c53-91f2-3d1986e1b479/dim/194x290.jpg",
+          "key": "the-grand-budapest-hotel",
+          "subtitle": "Barney Pilling",
+          "title": "The Grand Budapest Hotel"
+        },
+        {
+          "image": "oscar2015mp1-film-editing-the-imitation-game",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/9e65970d-c0e4-4fed-a15e-39a4b9265962/dim/194x290.jpg",
+          "key": "the-imitation-game",
+          "subtitle": "William Goldenberg",
+          "title": "The Imitation Game"
+        },
+        {
+          "image": "oscar2015mp1-film-editing-whiplash",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/7b07f9c4-0c2a-4823-8d1c-ede834cf3ad4/dim/194x290.jpg",
+          "key": "whiplash",
+          "subtitle": "Tom Cross",
+          "title": "Whiplash"
+        }
+      ],
+      "title": "Film Editing"
+    },
+    {
+      "key": "short-film-animated",
+      "nominees": [
+        {
+          "image": "oscar2015mp1-short-film-animated-the-bigger-picture",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/8deefead-cca8-4865-913e-355aea346360/dim/194x290.jpg",
+          "key": "the-bigger-picture",
+          "subtitle": "Daisy Jacobs and Christopher Hees",
+          "title": "The Bigger Picture"
+        },
+        {
+          "image": "oscar2015mp1-short-film-animated-the-dam-keeper",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/03baec85-18da-4c6f-b3ce-197171d0cd1b/dim/194x290.jpg",
+          "key": "the-dam-keeper",
+          "subtitle": "Robert Kondo and Dice Tsutsumi",
+          "title": "The Dam Keeper"
+        },
+        {
+          "image": "oscar2015mp1-short-film-animated-feast",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/b3b56ea6-0778-4890-bb3a-31004d1e686e/dim/194x290.jpg",
+          "key": "feast",
+          "subtitle": "Patrick Osborne and Kristina Reed",
+          "title": "Feast"
+        },
+        {
+          "image": "oscar2015mp1-short-film-animated-me-and-my-moulton",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/a12d88c1-0cef-41ce-94b8-5deb4f15da76/dim/194x290.jpg",
+          "key": "me-and-my-moulton",
+          "subtitle": "Torill Kove",
+          "title": "Me and My Moulton"
+        },
+        {
+          "image": "oscar2015mp1-short-film-animated-a-single-life",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/f7bd089b-f8db-4475-b306-75dc4a5fa28a/dim/194x290.jpg",
+          "key": "a-single-life",
+          "subtitle": "Joris Oprins",
+          "title": "A Single Life"
+        }
+      ],
+      "title": "Short Film (Animated)"
+    },
+    {
+      "key": "sound-editing",
+      "nominees": [
+        {
+          "image": "oscar2015mp1-sound-editing-american-sniper",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/0605d238-5cc4-431b-ae3c-e73789a4106d/dim/194x290.jpg",
+          "key": "american-sniper",
+          "subtitle": "Alan Robert Murray and Bub Asman",
+          "title": "American Sniper"
+        },
+        {
+          "image": "oscar2015mp1-sound-editing-birdman-or-the-unexpected-virtue-of-ignorance",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/f9bcd504-fb4a-4f0b-a26d-ccf69251ddc9/dim/194x290.jpg",
+          "key": "birdman-or-the-unexpected-virtue-of-ignorance",
+          "subtitle": "Martin Hern\u00e1ndez and Aaron Glascock",
+          "title": "Birdman or (The Unexpected Virtue of Ignorance)"
+        },
+        {
+          "image": "oscar2015mp1-sound-editing-the-hobbit-the-battle-of-the-five-armies",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/18442b76-70bd-48ea-a66b-85b930c4664e/dim/194x290.jpg",
+          "key": "the-hobbit-the-battle-of-the-five-armies",
+          "subtitle": "Brent Burge and Jason Canovas",
+          "title": "The Hobbit: The Battle of the Five Armies"
+        },
+        {
+          "image": "oscar2015mp1-sound-editing-interstellar",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/a75bdac4-f81a-440e-8215-f20866517908/dim/194x290.jpg",
+          "key": "interstellar",
+          "subtitle": "Richard King",
+          "title": "Interstellar"
+        },
+        {
+          "image": "oscar2015mp1-sound-editing-unbroken",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/edf64e57-fa7d-47ed-8d65-5c65beb2729e/dim/194x290.jpg",
+          "key": "unbroken",
+          "subtitle": "Becky Sullivan and Andrew DeCristofaro",
+          "title": "Unbroken"
+        }
+      ],
+      "title": "Sound Editing"
+    },
+    {
+      "key": "sound-mixing",
+      "nominees": [
+        {
+          "image": "oscar2015mp1-sound-mixing-american-sniper",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/0605d238-5cc4-431b-ae3c-e73789a4106d/dim/194x290.jpg",
+          "key": "american-sniper",
+          "subtitle": "John Reitz, Gregg Rudloff and Walt Martin",
+          "title": "American Sniper"
+        },
+        {
+          "image": "oscar2015mp1-sound-mixing-birdman-or-the-unexpected-virtue-of-ignorance",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/f9bcd504-fb4a-4f0b-a26d-ccf69251ddc9/dim/194x290.jpg",
+          "key": "birdman-or-the-unexpected-virtue-of-ignorance",
+          "subtitle": "Jon Taylor, Frank A. Monta\u00f1o and Thomas Varga",
+          "title": "Birdman or (The Unexpected Virtue of Ignorance)"
+        },
+        {
+          "image": "oscar2015mp1-sound-mixing-interstellar",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/a75bdac4-f81a-440e-8215-f20866517908/dim/194x290.jpg",
+          "key": "interstellar",
+          "subtitle": "Gary A. Rizzo, Gregg Landaker and Mark Weingarten",
+          "title": "Interstellar"
+        },
+        {
+          "image": "oscar2015mp1-sound-mixing-unbroken",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/edf64e57-fa7d-47ed-8d65-5c65beb2729e/dim/194x290.jpg",
+          "key": "unbroken",
+          "subtitle": "Jon Taylor, Frank A. Monta\u00f1o and David Lee",
+          "title": "Unbroken"
+        },
+        {
+          "image": "oscar2015mp1-sound-mixing-whiplash",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/7b07f9c4-0c2a-4823-8d1c-ede834cf3ad4/dim/194x290.jpg",
+          "key": "whiplash",
+          "subtitle": "Craig Mann, Ben Wilkins and Thomas Curley",
+          "title": "Whiplash"
+        }
+      ],
+      "title": "Sound Mixing"
+    },
+    {
+      "key": "short-film-live-action",
+      "nominees": [
+        {
+          "image": "oscar2015mp1-short-film-live-action-aya",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/3e289d29-ddb7-4557-ba5a-f1167a999c75/dim/194x290.jpg",
+          "key": "aya",
+          "subtitle": "Oded Binnun and Mihal Brezis",
+          "title": "Aya"
+        },
+        {
+          "image": "oscar2015mp1-short-film-live-action-boogaloo-and-graham",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/fa10b421-0e05-4f8c-a0df-30ccf736615a/dim/194x290.jpg",
+          "key": "boogaloo-and-graham",
+          "subtitle": "Michael Lennox and Ronan Blaney",
+          "title": "Boogaloo and Graham"
+        },
+        {
+          "image": "oscar2015mp1-short-film-live-action-butter-lamp-la-lampe-au-beurre-de-yak",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/ee6d255e-55e8-4b55-a22c-ec9e811494d9/dim/194x290.jpg",
+          "key": "butter-lamp-la-lampe-au-beurre-de-yak",
+          "subtitle": "Hu Wei and Julien F\u00e9ret",
+          "title": "Butter Lamp (La Lampe au Beurre de Yak)"
+        },
+        {
+          "image": "oscar2015mp1-short-film-live-action-parvaneh",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/0e9d3817-9600-4f11-affd-06720f795aab/dim/194x290.jpg",
+          "key": "parvaneh",
+          "subtitle": "Talkhon Hamzavi and Stefan Eichenberger",
+          "title": "Parvaneh"
+        },
+        {
+          "image": "oscar2015mp1-short-film-live-action-the-phone-call",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/c1ce2235-739e-4baf-8c46-f5a8ca95e91a/dim/194x290.jpg",
+          "key": "the-phone-call",
+          "subtitle": "Mat Kirkby and James Lucas",
+          "title": "The Phone Call"
+        }
+      ],
+      "title": "Short Film (Live Action)"
+    },
+    {
+      "key": "actress-in-a-supporting-role",
+      "nominees": [
+        {
+          "image": "oscar2015mp1-actress-in-a-supporting-role-emma-stone",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/39dcb24e-9882-412d-804a-ce0cc5806055/dim/261x417.jpg",
+          "key": "emma-stone",
+          "subtitle": "Birdman or (The Unexpected Virtue of Ignorance)",
+          "title": "Emma Stone"
+        },
+        {
+          "image": "oscar2015mp1-actress-in-a-supporting-role-patricia-arquette",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/a067093c-a928-4c2e-9a5c-747fd60588d0/dim/261x417.jpg",
+          "key": "patricia-arquette",
+          "subtitle": "Boyhood",
+          "title": "Patricia Arquette"
+        },
+        {
+          "image": "oscar2015mp1-actress-in-a-supporting-role-keira-knightley",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/3f194410-5eaf-48d6-a20f-bd0be153146b/dim/261x417.jpg",
+          "key": "keira-knightley",
+          "subtitle": "The Imitation Game",
+          "title": "Keira Knightley"
+        },
+        {
+          "image": "oscar2015mp1-actress-in-a-supporting-role-meryl-streep",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/df89dd59-71b9-4141-9bb7-24bc76beb20c/dim/261x417.jpg",
+          "key": "meryl-streep",
+          "subtitle": "Into the Woods",
+          "title": "Meryl Streep"
+        },
+        {
+          "image": "oscar2015mp1-actress-in-a-supporting-role-laura-dern",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/55b25595-57ee-4d53-b344-5620faa593a1/dim/261x417.jpg",
+          "key": "laura-dern",
+          "subtitle": "Wild",
+          "title": "Laura Dern"
+        }
+      ],
+      "title": "Actress in a Supporting Role"
+    },
+    {
+      "key": "actor-in-a-leading-role",
+      "nominees": [
+        {
+          "image": "oscar2015mp1-actor-in-a-leading-role-bradley-cooper",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/a59ee529-30fd-43d1-a21c-7b9f0adb969b/dim/261x417.jpg",
+          "key": "bradley-cooper",
+          "subtitle": "American Sniper",
+          "title": "Bradley Cooper"
+        },
+        {
+          "image": "oscar2015mp1-actor-in-a-leading-role-michael-keaton",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/41df1a31-b900-4edd-8706-7e48d36b6090/dim/261x417.jpg",
+          "key": "michael-keaton",
+          "subtitle": "Birdman or (The Unexpected Virtue of Ignorance)",
+          "title": "Michael Keaton"
+        },
+        {
+          "image": "oscar2015mp1-actor-in-a-leading-role-steve-carell",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/bf50ea28-6b22-46c4-8b41-1643a75e4d37/dim/261x417.jpg",
+          "key": "steve-carell",
+          "subtitle": "Foxcatcher",
+          "title": "Steve Carell"
+        },
+        {
+          "image": "oscar2015mp1-actor-in-a-leading-role-benedict-cumberbatch",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/bc69879a-8911-409a-9073-403f4d3dbe40/dim/261x417.jpg",
+          "key": "benedict-cumberbatch",
+          "subtitle": "The Imitation Game",
+          "title": "Benedict Cumberbatch"
+        },
+        {
+          "image": "oscar2015mp1-actor-in-a-leading-role-eddie-redmayne",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/9702ebba-504c-4b20-a161-04adb1dfb5f8/dim/261x417.jpg",
+          "key": "eddie-redmayne",
+          "subtitle": "The Theory of Everything",
+          "title": "Eddie Redmayne"
+        }
+      ],
+      "title": "Actor in a Leading Role"
+    },
+    {
+      "key": "cinematography",
+      "nominees": [
+        {
+          "image": "oscar2015mp1-cinematography-birdman-or-the-unexpected-virtue-of-ignorance",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/f9bcd504-fb4a-4f0b-a26d-ccf69251ddc9/dim/194x290.jpg",
+          "key": "birdman-or-the-unexpected-virtue-of-ignorance",
+          "subtitle": "Emmanuel Lubezki",
+          "title": "Birdman or (The Unexpected Virtue of Ignorance)"
+        },
+        {
+          "image": "oscar2015mp1-cinematography-the-grand-budapest-hotel",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/55e1ad71-0b0d-4c53-91f2-3d1986e1b479/dim/194x290.jpg",
+          "key": "the-grand-budapest-hotel",
+          "subtitle": "Robert Yeoman",
+          "title": "The Grand Budapest Hotel"
+        },
+        {
+          "image": "oscar2015mp1-cinematography-ida",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/86e80f8f-2c8d-4274-b887-b981b7a5daa5/dim/194x290.jpg?cb=456",
+          "key": "ida",
+          "subtitle": "Lukasz Zal and Ryszard Lenczewski",
+          "title": "Ida"
+        },
+        {
+          "image": "oscar2015mp1-cinematography-mr-turner",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/a1017541-fdd6-4bff-9893-dafdbf7c876f/dim/194x290.jpg",
+          "key": "mr-turner",
+          "subtitle": "Dick Pope",
+          "title": "Mr. Turner"
+        },
+        {
+          "image": "oscar2015mp1-cinematography-unbroken",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/edf64e57-fa7d-47ed-8d65-5c65beb2729e/dim/194x290.jpg",
+          "key": "unbroken",
+          "subtitle": "Roger Deakins",
+          "title": "Unbroken"
+        }
+      ],
+      "title": "Cinematography"
+    },
+    {
+      "key": "visual-effects",
+      "nominees": [
+        {
+          "image": "oscar2015mp1-visual-effects-captain-america-the-winter-soldier",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/6e9b16f1-fd0e-4ddc-86e2-19a7ff5556a5/dim/194x290.jpg",
+          "key": "captain-america-the-winter-soldier",
+          "subtitle": "Dan DeLeeuw, Russell Earl, Bryan Grill and Dan Sudick",
+          "title": "Captain America: The Winter Soldier"
+        },
+        {
+          "image": "oscar2015mp1-visual-effects-dawn-of-the-planet-of-the-apes",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/539bdc0d-61b2-45b1-a2dc-ff08d047d18b/dim/194x290.jpg",
+          "key": "dawn-of-the-planet-of-the-apes",
+          "subtitle": "Joe Letteri, Dan Lemmon, Daniel Barrett and Erik Winquist",
+          "title": "Dawn of the Planet of the Apes"
+        },
+        {
+          "image": "oscar2015mp1-visual-effects-guardians-of-the-galaxy",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/00c4ad1b-9676-41b0-9c6e-f745671b0e03/dim/194x290.jpg",
+          "key": "guardians-of-the-galaxy",
+          "subtitle": "Stephane Ceretti, Nicolas Aithadi,\u00a0Jonathan Fawkner and Paul Corbould",
+          "title": "Guardians of the Galaxy"
+        },
+        {
+          "image": "oscar2015mp1-visual-effects-interstellar",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/a75bdac4-f81a-440e-8215-f20866517908/dim/194x290.jpg",
+          "key": "interstellar",
+          "subtitle": "Paul Franklin, Andrew Lockley, Ian Hunter and Scott Fisher",
+          "title": "Interstellar"
+        },
+        {
+          "image": "oscar2015mp1-visual-effects-x-men-days-of-future-past",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/f07a65d1-e48f-41cd-98f6-8cb2d948bfa5/dim/194x290.jpg",
+          "key": "x-men-days-of-future-past",
+          "subtitle": "Richard Stammers, Lou Pecora, Tim Crosbie and Cameron Waldbauer",
+          "title": "X-Men: Days of Future Past"
+        }
+      ],
+      "title": "Visual Effects"
+    },
+    {
+      "key": "music-original-score",
+      "nominees": [
+        {
+          "image": "oscar2015mp1-music-original-score-the-grand-budapest-hotel",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/55e1ad71-0b0d-4c53-91f2-3d1986e1b479/dim/194x290.jpg",
+          "key": "the-grand-budapest-hotel",
+          "subtitle": "Alexandre Desplat",
+          "title": "The Grand Budapest Hotel"
+        },
+        {
+          "image": "oscar2015mp1-music-original-score-the-imitation-game",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/9e65970d-c0e4-4fed-a15e-39a4b9265962/dim/194x290.jpg",
+          "key": "the-imitation-game",
+          "subtitle": "Alexandre Desplat",
+          "title": "The Imitation Game"
+        },
+        {
+          "image": "oscar2015mp1-music-original-score-interstellar",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/a75bdac4-f81a-440e-8215-f20866517908/dim/194x290.jpg",
+          "key": "interstellar",
+          "subtitle": "Hans Zimmer",
+          "title": "Interstellar"
+        },
+        {
+          "image": "oscar2015mp1-music-original-score-mr-turner",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/a1017541-fdd6-4bff-9893-dafdbf7c876f/dim/194x290.jpg",
+          "key": "mr-turner",
+          "subtitle": "Gary Yershon",
+          "title": "Mr. Turner"
+        },
+        {
+          "image": "oscar2015mp1-music-original-score-the-theory-of-everything",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/7aea40cb-bd4b-4829-b331-ae895e04828e/dim/194x290.jpg",
+          "key": "the-theory-of-everything",
+          "subtitle": "J\u00f3hann J\u00f3hannsson",
+          "title": "The Theory of Everything"
+        }
+      ],
+      "title": "Music (Original Score)"
+    },
+    {
+      "key": "writing-adapted-screenplay",
+      "nominees": [
+        {
+          "image": "oscar2015mp1-writing-adapted-screenplay-american-sniper",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/0605d238-5cc4-431b-ae3c-e73789a4106d/dim/194x290.jpg",
+          "key": "american-sniper",
+          "subtitle": "Written by Jason Hall",
+          "title": "American Sniper"
+        },
+        {
+          "image": "oscar2015mp1-writing-adapted-screenplay-the-imitation-game",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/9e65970d-c0e4-4fed-a15e-39a4b9265962/dim/194x290.jpg",
+          "key": "the-imitation-game",
+          "subtitle": "Written by Graham Moore",
+          "title": "The Imitation Game"
+        },
+        {
+          "image": "oscar2015mp1-writing-adapted-screenplay-inherent-vice",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/cf576f73-d9e0-411d-a4bc-cd5c5a56f348/dim/194x290.jpg",
+          "key": "inherent-vice",
+          "subtitle": "Written for the screen by Paul Thomas Anderson",
+          "title": "Inherent Vice"
+        },
+        {
+          "image": "oscar2015mp1-writing-adapted-screenplay-the-theory-of-everything",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/7aea40cb-bd4b-4829-b331-ae895e04828e/dim/194x290.jpg",
+          "key": "the-theory-of-everything",
+          "subtitle": "Screenplay by Anthony McCarten",
+          "title": "The Theory of Everything"
+        },
+        {
+          "image": "oscar2015mp1-writing-adapted-screenplay-whiplash",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/7b07f9c4-0c2a-4823-8d1c-ede834cf3ad4/dim/194x290.jpg",
+          "key": "whiplash",
+          "subtitle": "Written by Damien Chazelle",
+          "title": "Whiplash"
+        }
+      ],
+      "title": "Writing (Adapted Screenplay)"
+    },
+    {
+      "key": "directing",
+      "nominees": [
+        {
+          "image": "oscar2015mp1-directing-birdman-or-the-unexpected-virtue-of-ignorance",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/f9bcd504-fb4a-4f0b-a26d-ccf69251ddc9/dim/194x290.jpg",
+          "key": "birdman-or-the-unexpected-virtue-of-ignorance",
+          "subtitle": "Alejandro G. I\u00f1\u00e1rritu",
+          "title": "Birdman or (The Unexpected Virtue of Ignorance)"
+        },
+        {
+          "image": "oscar2015mp1-directing-boyhood",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/c8433c59-fbf0-46b9-a31b-d40536a48290/dim/194x290.jpg",
+          "key": "boyhood",
+          "subtitle": "Richard Linklater",
+          "title": "Boyhood"
+        },
+        {
+          "image": "oscar2015mp1-directing-foxcatcher",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/5ac577ee-a22d-4044-be93-7d81a53484cc/dim/194x290.jpg",
+          "key": "foxcatcher",
+          "subtitle": "Bennett Miller",
+          "title": "Foxcatcher"
+        },
+        {
+          "image": "oscar2015mp1-directing-the-grand-budapest-hotel",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/55e1ad71-0b0d-4c53-91f2-3d1986e1b479/dim/194x290.jpg",
+          "key": "the-grand-budapest-hotel",
+          "subtitle": "Wes Anderson",
+          "title": "The Grand Budapest Hotel"
+        },
+        {
+          "image": "oscar2015mp1-directing-the-imitation-game",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/9e65970d-c0e4-4fed-a15e-39a4b9265962/dim/194x290.jpg",
+          "key": "the-imitation-game",
+          "subtitle": "Morten Tyldum",
+          "title": "The Imitation Game"
+        }
+      ],
+      "title": "Directing"
+    },
+    {
+      "key": "makeup-and-hairstyling",
+      "nominees": [
+        {
+          "image": "oscar2015mp1-makeup-and-hairstyling-foxcatcher",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/5ac577ee-a22d-4044-be93-7d81a53484cc/dim/194x290.jpg",
+          "key": "foxcatcher",
+          "subtitle": "Bill Corso and Dennis Liddiard",
+          "title": "Foxcatcher"
+        },
+        {
+          "image": "oscar2015mp1-makeup-and-hairstyling-the-grand-budapest-hotel",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/55e1ad71-0b0d-4c53-91f2-3d1986e1b479/dim/194x290.jpg",
+          "key": "the-grand-budapest-hotel",
+          "subtitle": "Frances Hannon and Mark Coulier",
+          "title": "The Grand Budapest Hotel"
+        },
+        {
+          "image": "oscar2015mp1-makeup-and-hairstyling-guardians-of-the-galaxy",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/00c4ad1b-9676-41b0-9c6e-f745671b0e03/dim/194x290.jpg",
+          "key": "guardians-of-the-galaxy",
+          "subtitle": "Elizabeth Yianni-Georgiou and David White",
+          "title": "Guardians of the Galaxy"
+        }
+      ],
+      "title": "Makeup and Hairstyling"
+    },
+    {
+      "key": "best-picture",
+      "nominees": [
+        {
+          "image": "oscar2015mp1-best-picture-american-sniper",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/cb3bb31a-9027-4a57-a5fb-010ffe11e931/dim/261x417.jpg",
+          "key": "american-sniper",
+          "subtitle": "Clint Eastwood, Robert Lorenz, Andrew Lazar, Bradley Cooper and Peter Morgan",
+          "title": "American Sniper"
+        },
+        {
+          "image": "oscar2015mp1-best-picture-birdman-or-the-unexpected-virtue-of-ignorance",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/f9bcd504-fb4a-4f0b-a26d-ccf69251ddc9/dim/261x417.jpg",
+          "key": "birdman-or-the-unexpected-virtue-of-ignorance",
+          "subtitle": "Alejandro G. I\u00f1\u00e1rritu, John Lesher and James W. Skotchdopole",
+          "title": "Birdman or (The Unexpected Virtue of Ignorance)"
+        },
+        {
+          "image": "oscar2015mp1-best-picture-boyhood",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/5d264e67-e8d7-4c74-bd37-85b1f2f15202/dim/261x417.jpg",
+          "key": "boyhood",
+          "subtitle": "Richard Linklater and Cathleen Sutherland",
+          "title": "Boyhood"
+        },
+        {
+          "image": "oscar2015mp1-best-picture-the-grand-budapest-hotel",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/55e1ad71-0b0d-4c53-91f2-3d1986e1b479/dim/261x417.jpg",
+          "key": "the-grand-budapest-hotel",
+          "subtitle": "Wes Anderson, Scott Rudin, Steven Rales and Jeremy Dawson",
+          "title": "The Grand Budapest Hotel"
+        },
+        {
+          "image": "oscar2015mp1-best-picture-the-imitation-game",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/a80cb6d9-85d1-4654-9083-d0abf2d4c843/dim/261x417.jpg",
+          "key": "the-imitation-game",
+          "subtitle": "Nora Grossman, Ido Ostrowsky and Teddy Schwarzman",
+          "title": "The Imitation Game"
+        },
+        {
+          "image": "oscar2015mp1-best-picture-selma",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/cdad57a6-681f-4fda-967f-607a05970fa9/dim/261x417.jpg",
+          "key": "selma",
+          "subtitle": "Christian Colson, Oprah Winfrey, Dede Gardner and Jeremy Kleiner",
+          "title": "Selma"
+        },
+        {
+          "image": "oscar2015mp1-best-picture-the-theory-of-everything",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/9b377976-0cfd-4990-b65e-7b0f3cf037fb/dim/261x417.jpg",
+          "key": "the-theory-of-everything",
+          "subtitle": "Tim Bevan, Eric Fellner, Lisa Bruce and Anthony McCarten",
+          "title": "The Theory of Everything"
+        },
+        {
+          "image": "oscar2015mp1-best-picture-whiplash",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/6fd3106f-6f2a-4afb-bda6-30c30716ecd1/dim/261x417.jpg",
+          "key": "whiplash",
+          "subtitle": "Jason Blum, Helen Estabrook and David Lancaster",
+          "title": "Whiplash"
+        }
+      ],
+      "title": "Best Picture"
+    },
+    {
+      "key": "actress-in-a-leading-role",
+      "nominees": [
+        {
+          "image": "oscar2015mp1-actress-in-a-leading-role-rosamund-pike",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/24cc7d59-8433-4664-ade3-77e77d24d2f6/dim/261x417.jpg",
+          "key": "rosamund-pike",
+          "subtitle": "Gone Girl",
+          "title": "Rosamund Pike"
+        },
+        {
+          "image": "oscar2015mp1-actress-in-a-leading-role-julianne-moore",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/9d3edece-17f4-4f02-8f19-4dad945fc037/dim/261x417.jpg",
+          "key": "julianne-moore",
+          "subtitle": "Still Alice",
+          "title": "Julianne Moore"
+        },
+        {
+          "image": "oscar2015mp1-actress-in-a-leading-role-felicity-jones",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/0c806fea-d35d-4906-9df8-c0ec497e0e56/dim/261x417.jpg",
+          "key": "felicity-jones",
+          "subtitle": "The Theory of Everything",
+          "title": "Felicity Jones"
+        },
+        {
+          "image": "oscar2015mp1-actress-in-a-leading-role-marion-cotillard",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/23cc0c4d-1216-476f-8eb1-34be0fc7edd0/dim/261x417.jpg",
+          "key": "marion-cotillard",
+          "subtitle": "Two Days, One Night",
+          "title": "Marion Cotillard"
+        },
+        {
+          "image": "oscar2015mp1-actress-in-a-leading-role-reese-witherspoon",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/011c092c-c536-48f2-a3b1-736a7d3e6554/dim/261x417.jpg",
+          "key": "reese-witherspoon",
+          "subtitle": "Wild",
+          "title": "Reese Witherspoon"
+        }
+      ],
+      "title": "Actress in a Leading Role"
+    },
+    {
+      "key": "production-design",
+      "nominees": [
+        {
+          "image": "oscar2015mp1-production-design-the-grand-budapest-hotel",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/55e1ad71-0b0d-4c53-91f2-3d1986e1b479/dim/194x290.jpg",
+          "key": "the-grand-budapest-hotel",
+          "subtitle": "Adam Stockhausen (Production Design); Anna Pinnock (Set Decoration)",
+          "title": "The Grand Budapest Hotel"
+        },
+        {
+          "image": "oscar2015mp1-production-design-the-imitation-game",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/9e65970d-c0e4-4fed-a15e-39a4b9265962/dim/194x290.jpg",
+          "key": "the-imitation-game",
+          "subtitle": "Maria Djurkovic (Production Design); Tatiana Macdonald (Set Decoration)",
+          "title": "The Imitation Game"
+        },
+        {
+          "image": "oscar2015mp1-production-design-interstellar",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/a75bdac4-f81a-440e-8215-f20866517908/dim/194x290.jpg",
+          "key": "interstellar",
+          "subtitle": "Nathan Crowley (Production Design); Gary Fettis (Set Decoration)",
+          "title": "Interstellar"
+        },
+        {
+          "image": "oscar2015mp1-production-design-into-the-woods",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/14b30390-be6b-4be4-8d89-e5f62a3a2373/dim/194x290.jpg",
+          "key": "into-the-woods",
+          "subtitle": "Dennis Gassner (Production Design); Anna Pinnock (Set Decoration)",
+          "title": "Into the Woods"
+        },
+        {
+          "image": "oscar2015mp1-production-design-mr-turner",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/a1017541-fdd6-4bff-9893-dafdbf7c876f/dim/194x290.jpg",
+          "key": "mr-turner",
+          "subtitle": "Suzie Davies (Production Design); Charlotte Watts (Set Decoration)",
+          "title": "Mr. Turner"
+        }
+      ],
+      "title": "Production Design"
+    },
+    {
+      "key": "music-original-song",
+      "nominees": [
+        {
+          "image": "oscar2015mp1-music-original-song-begin-again",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/607a15a2-e13e-433a-b2df-a1017daeda74/dim/194x290.jpg",
+          "key": "begin-again",
+          "subtitle": "Music and Lyric by Gregg Alexander and Danielle Brisebois",
+          "title": "\"Lost Stars\" from BEGIN AGAIN"
+        },
+        {
+          "image": "oscar2015mp1-music-original-song-beyond-the-lights",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/e69a958b-1d4f-403a-862d-d6fbb5c68c0d/dim/194x290.jpg",
+          "key": "beyond-the-lights",
+          "subtitle": "Music and Lyric by Diane Warren",
+          "title": "\"Grateful\" from BEYOND THE LIGHTS"
+        },
+        {
+          "image": "oscar2015mp1-music-original-song-glen-campbell-ill-be-me",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/a9d23863-4e4d-4e94-975f-e806949ec285/dim/194x290.jpg",
+          "key": "glen-campbell-ill-be-me",
+          "subtitle": "Music and Lyric by Glen Campbell and Julian Raymond",
+          "title": "\"I'm Not Gonna Miss You\" from GLEN CAMPBELL...I'LL BE ME"
+        },
+        {
+          "image": "oscar2015mp1-music-original-song-the-lego-movie",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/3dd446b8-824c-4327-9e55-831aa96726b3/dim/194x290.jpg",
+          "key": "the-lego-movie",
+          "subtitle": "Music and Lyric by Shawn Patterson",
+          "title": "\"Everything Is Awesome\" from THE LEGO MOVIE"
+        },
+        {
+          "image": "oscar2015mp1-music-original-song-selma",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/83628f18-059a-41c4-9690-8e1588e55731/dim/194x290.jpg",
+          "key": "selma",
+          "subtitle": "Music and Lyric by John Stephens and Lonnie Lynn",
+          "title": "\"Glory\" from SELMA"
+        }
+      ],
+      "title": "Music (Original Song)"
+    },
+    {
+      "key": "documentary-short-subject",
+      "nominees": [
+        {
+          "image": "oscar2015mp1-documentary-short-subject-crisis-hotline-veterans-press-1",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/ea5e4bc8-9fe6-46e0-a45e-3a930d37eaf5/dim/194x290.jpg",
+          "key": "crisis-hotline-veterans-press-1",
+          "subtitle": "Ellen Goosenberg Kent and Dana Perry",
+          "title": "Crisis Hotline: Veterans Press 1"
+        },
+        {
+          "image": "oscar2015mp1-documentary-short-subject-joanna",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/429d80f2-0a67-4690-a5c8-6bc1a2be7adb/dim/194x290.jpg",
+          "key": "joanna",
+          "subtitle": "Aneta Kopacz",
+          "title": "Joanna"
+        },
+        {
+          "image": "oscar2015mp1-documentary-short-subject-our-curse",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/44856c0a-584c-424d-9273-34359b4ab3c2/dim/194x290.jpg",
+          "key": "our-curse",
+          "subtitle": "Tomasz &Sacute;liwi&nacute;ski and Maciej &Sacute;lesicki",
+          "title": "Our Curse"
+        },
+        {
+          "image": "oscar2015mp1-documentary-short-subject-the-reaper-la-parka",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/961cb575-f82b-49e3-ac6e-db4c3bf9dd58/dim/194x290.jpg",
+          "key": "the-reaper-la-parka",
+          "subtitle": "Gabriel Serra Arguello",
+          "title": "The Reaper (La Parka)"
+        },
+        {
+          "image": "oscar2015mp1-documentary-short-subject-white-earth",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/d1bcdc3e-0c87-4bd9-aadc-9a4abdd8b16e/dim/194x290.jpg",
+          "key": "white-earth",
+          "subtitle": "J. Christian Jensen",
+          "title": "White Earth"
+        }
+      ],
+      "title": "Documentary Short"
+    },
+    {
+      "key": "documentary-feature",
+      "nominees": [
+        {
+          "image": "oscar2015mp1-documentary-feature-citizenfour",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/4254266d-3a41-4111-bc10-751ca159f295/dim/194x290.jpg?cb=89080",
+          "key": "citizenfour",
+          "subtitle": "Laura Poitras, Mathilde Bonnefoy and Dirk Wilutzky",
+          "title": "CitizenFour"
+        },
+        {
+          "image": "oscar2015mp1-documentary-feature-finding-vivian-maier",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/e3d20e24-9d58-4937-9ee2-fdc19e30365b/dim/194x290.jpg",
+          "key": "finding-vivian-maier",
+          "subtitle": "John Maloof and Charlie Siskel",
+          "title": "Finding Vivian Maier"
+        },
+        {
+          "image": "oscar2015mp1-documentary-feature-last-days-in-vietnam",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/7c29555c-1747-4d88-ac4c-7e42cd8feef1/dim/194x290.jpg",
+          "key": "last-days-in-vietnam",
+          "subtitle": "Rory Kennedy and Keven McAlester",
+          "title": "Last Days in Vietnam"
+        },
+        {
+          "image": "oscar2015mp1-documentary-feature-the-salt-of-the-earth",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/23c4ffb7-6297-4522-8d2a-13e9ceafd8ba/dim/194x290.jpg",
+          "key": "the-salt-of-the-earth",
+          "subtitle": "Wim Wenders, Juliano Ribeiro Salgado and David Rosier",
+          "title": "The Salt of the Earth"
+        },
+        {
+          "image": "oscar2015mp1-documentary-feature-virunga",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/25704ee8-2684-45bb-8184-0f631a6818fb/dim/194x290.jpg",
+          "key": "virunga",
+          "subtitle": "Orlando von Einsiedel and Joanna Natasegara",
+          "title": "Virunga"
+        }
+      ],
+      "title": "Documentary Feature"
+    },
+    {
+      "key": "actor-in-a-supporting-role",
+      "nominees": [
+        {
+          "image": "oscar2015mp1-actor-in-a-supporting-role-edward-norton",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/7a302b32-69a8-49e5-a7b7-aa20584f98bb/dim/261x417.jpg",
+          "key": "edward-norton",
+          "subtitle": "Birdman or (The Unexpected Virtue of Ignorance)",
+          "title": "Edward Norton"
+        },
+        {
+          "image": "oscar2015mp1-actor-in-a-supporting-role-ethan-hawke",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/b00a32e8-79da-4949-8980-8af40c22bacd/dim/261x417.jpg",
+          "key": "ethan-hawke",
+          "subtitle": "Boyhood",
+          "title": "Ethan Hawke"
+        },
+        {
+          "image": "oscar2015mp1-actor-in-a-supporting-role-mark-ruffalo",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/bb807168-d58f-4841-a487-ed8aeb5a1b52/dim/261x417.jpg",
+          "key": "mark-ruffalo",
+          "subtitle": "Foxcatcher",
+          "title": "Mark Ruffalo"
+        },
+        {
+          "image": "oscar2015mp1-actor-in-a-supporting-role-robert-duvall",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/8e868466-f773-445c-8207-5912f886c3c7/dim/261x417.jpg",
+          "key": "robert-duvall",
+          "subtitle": "The Judge",
+          "title": "Robert Duvall"
+        },
+        {
+          "image": "oscar2015mp1-actor-in-a-supporting-role-jk-simmons",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/d3091bd4-e8e6-4e2b-a64e-74a1b24c23e6/dim/261x417.jpg",
+          "key": "jk-simmons",
+          "subtitle": "Whiplash",
+          "title": "J.K. Simmons"
+        }
+      ],
+      "title": "Actor in a Supporting Role"
+    },
+    {
+      "key": "costume-design",
+      "nominees": [
+        {
+          "image": "oscar2015mp1-costume-design-the-grand-budapest-hotel",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/55e1ad71-0b0d-4c53-91f2-3d1986e1b479/dim/194x290.jpg",
+          "key": "the-grand-budapest-hotel",
+          "subtitle": "Milena Canonero",
+          "title": "The Grand Budapest Hotel"
+        },
+        {
+          "image": "oscar2015mp1-costume-design-inherent-vice",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/cf576f73-d9e0-411d-a4bc-cd5c5a56f348/dim/194x290.jpg",
+          "key": "inherent-vice",
+          "subtitle": "Mark Bridges",
+          "title": "Inherent Vice"
+        },
+        {
+          "image": "oscar2015mp1-costume-design-into-the-woods",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/14b30390-be6b-4be4-8d89-e5f62a3a2373/dim/194x290.jpg",
+          "key": "into-the-woods",
+          "subtitle": "Colleen Atwood",
+          "title": "Into the Woods"
+        },
+        {
+          "image": "oscar2015mp1-costume-design-maleficent",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/754fa164-95b7-4fbe-a38e-071acc870d39/dim/194x290.jpg",
+          "key": "maleficent",
+          "subtitle": "Anna B. Sheppard",
+          "title": "Maleficent"
+        },
+        {
+          "image": "oscar2015mp1-costume-design-mr-turner",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/a1017541-fdd6-4bff-9893-dafdbf7c876f/dim/194x290.jpg",
+          "key": "mr-turner",
+          "subtitle": "Jacqueline Durran",
+          "title": "Mr. Turner"
+        }
+      ],
+      "title": "Costume Design"
+    },
+    {
+      "key": "foreign-language-film",
+      "nominees": [
+        {
+          "image": "oscar2015mp1-foreign-language-film-ida",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/86e80f8f-2c8d-4274-b887-b981b7a5daa5/dim/194x290.jpg?cb=456",
+          "key": "ida",
+          "subtitle": "Poland; Directed by Pawel Pawlikowski",
+          "title": "Ida"
+        },
+        {
+          "image": "oscar2015mp1-foreign-language-film-leviathan",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/e2a0c5f4-81f2-4952-9154-13e9add95732/dim/194x290.jpg?cb=90503",
+          "key": "leviathan",
+          "subtitle": "Russia; Directed by Andrey Zvyagintsev",
+          "title": "Leviathan"
+        },
+        {
+          "image": "oscar2015mp1-foreign-language-film-tangerines",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/da2c5ed2-5440-415a-8a51-6cc25bd90000/dim/194x290.jpg",
+          "key": "tangerines",
+          "subtitle": "Estonia; Directed by Zaza Urushadze",
+          "title": "Tangerines"
+        },
+        {
+          "image": "oscar2015mp1-foreign-language-film-timbuktu",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/e21accad-fd42-47d5-98f5-192bc382af54/dim/194x290.jpg",
+          "key": "timbuktu",
+          "subtitle": "Mauritania; Directed by Abderrahmane Sissako",
+          "title": "Timbuktu"
+        },
+        {
+          "image": "oscar2015mp1-foreign-language-film-wild-tales",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/10490c38-1a03-4035-808f-dcfd4782802a/dim/194x290.jpg",
+          "key": "wild-tales",
+          "subtitle": "Argentina; Directed by Dami\u00e1n Szifron",
+          "title": "Wild Tales"
+        }
+      ],
+      "title": "Foreign Language Film"
+    },
+    {
+      "key": "animated-feature-film",
+      "nominees": [
+        {
+          "image": "oscar2015mp1-animated-feature-film-big-hero-6",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/78122228-1eeb-48e5-bf62-33036cdfb68f/dim/261x417.jpg?cb=112323",
+          "key": "big-hero-6",
+          "subtitle": "Don Hall, Chris Williams and Roy Conli",
+          "title": "Big Hero 6"
+        },
+        {
+          "image": "oscar2015mp1-animated-feature-film-the-boxtrolls",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/52b60953-f99d-440e-8fed-ec8204fd58e3/dim/261x417.jpg?cb=6641364",
+          "key": "the-boxtrolls",
+          "subtitle": "Anthony Stacchi, Graham Annable and Travis Knight",
+          "title": "The Boxtrolls"
+        },
+        {
+          "image": "oscar2015mp1-animated-feature-film-how-to-train-your-dragon-2",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/6f359c5b-7fce-4a57-ba27-0aec448d912c/dim/261x417.jpg",
+          "key": "how-to-train-your-dragon-2",
+          "subtitle": "Dean DeBlois and Bonnie Arnold",
+          "title": "How to Train Your Dragon 2"
+        },
+        {
+          "image": "oscar2015mp1-animated-feature-film-song-of-the-sea",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/2c48f44b-a865-4727-8506-a7e876267195/dim/261x417.jpg?cb=54423",
+          "key": "song-of-the-sea",
+          "subtitle": "Tomm Moore and Paul Young",
+          "title": "Song of the Sea"
+        },
+        {
+          "image": "oscar2015mp1-animated-feature-film-the-tale-of-the-princess-kaguya",
+          "image_url": "http://a.oscar.go.com/service/image/index/id/c5363b96-ea57-407d-853b-b52beb0a9759/dim/261x417.jpg",
+          "key": "the-tale-of-the-princess-kaguya",
+          "subtitle": "Isao Takahata and Yoshiaki Nishimura",
+          "title": "The Tale of the Princess Kaguya"
+        }
+      ],
+      "title": "Animated Feature Film"
+    }
+  ],
+  "points": {
+    "actor-in-a-leading-role": 5,
+    "actor-in-a-supporting-role": 4,
+    "actress-in-a-leading-role": 5,
+    "actress-in-a-supporting-role": 4,
+    "animated-feature-film": 5,
+    "best-picture": 8,
+    "cinematography": 3,
+    "costume-design": 2,
+    "directing": 5,
+    "documentary-feature": 5,
+    "documentary-short-subject": 2,
+    "film-editing": 3,
+    "foreign-language-film": 4,
+    "makeup-and-hairstyling": 2,
+    "music-original-score": 3,
+    "music-original-song": 3,
+    "production-design": 2,
+    "short-film-animated": 3,
+    "short-film-live-action": 3,
+    "sound-editing": 2,
+    "sound-mixing": 2,
+    "visual-effects": 2,
+    "writing-adapted-screenplay": 4,
+    "writing-original-screenplay": 4
+  }
+}

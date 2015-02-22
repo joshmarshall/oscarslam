@@ -16,15 +16,21 @@
     <p><center>-or-</center></p>
 
     <div class="index-form">
-      <form method="POST" action="/signin" class="form" role="form">
+      <form method="POST" action="/signin" class="form" role="form" id="signin-form">
         <input placeholder="Your Email" type="email" class="form-control"
           id="signin-email" name="signin-email"/>
         <input placeholder="Your Password" type="password" class="form-control"
           id="signin-password" name="signin-password"/>
-
+        <div class="reset-container">
+          <input type="checkbox" id="signin-reset" value="reset" name="reset-password"/>
+          <span class="checkbox-label">I need to reset my password.</span>
+        </div>
         <input type="submit" class="form-control btn btn-block btn-primary" value="Sign In" id="signin-submit"/>
       </form>
     </div>
   </div>
+{% end %}
 
+{% block extra_scripts %}
+<script src="/static/js/signin.js" type="text/javascript"></script>
 {% end %}

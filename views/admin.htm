@@ -1,9 +1,12 @@
-{% extends "base.htm" %}
+{% extends "home.htm" %}
+
+{% comment "Don't want refresh notices on admin..." %}
+{% block contest_id %}{% end %}
 
 {% block body %}
 
-<div class="col-sm-4 col-sm-offset-4">
-  <form method="POST" id="winner-form" action="/admin">
+<div class="col-sm-6 col-sm-offset-3">
+  <form method="POST" id="winner-form" action="/admin/{{ contest_id }}">
     <input type="hidden" id="category-id" value="" name="category"/>
     <input type="hidden" id="nominee-id" value="" name="nominee"/>
   </form>

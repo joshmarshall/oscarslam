@@ -38,6 +38,16 @@ MESSAGES = {
     "contest_started": {
         "text": "The contest has started - no more voting allowed.",
         "class": "danger"
+    },
+
+    "reset_sent": {
+        "text": "Password reset email has been sent.",
+        "class": "success"
+    },
+
+    "password_reset": {
+        "text": "Your password has been reset.",
+        "class": "success"
     }
 
 }

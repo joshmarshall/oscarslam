@@ -101,15 +101,15 @@ h2 {
 }
 
 .nominee .title {
-  font-size: 24px;
+  font-size: 26px;
   font-color: #dcb647;
   line-height: 32px;
   display: block;
 }
 
 .nominee .subtitle {
-  line-height: 18px;
-  font-size: 12px;
+  line-height: 20px;
+  font-size: 16px;
 }
 
 h3, h5 {
@@ -172,4 +172,24 @@ h3, h5 {
 .tallied-points {
   text-align: center;
   font-size: 24px;
+}
+
+
+/* Signin Form */
+.reset-container {
+  background: #AAA;
+  padding: 3px 10px;
+}
+
+
+.modal-content {
+  background: #555;
+}
+
+.modal-footer {
+  border-top: none;
+}
+
+.modal-header {
+  border-bottom: none;
 }

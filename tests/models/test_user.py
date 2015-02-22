@@ -1,6 +1,11 @@
+import hashlib
 import mock
 import unittest
+import urllib
+
 from tests.helpers import FakeStore
+
+from oscarslam import config
 from oscarslam.models.user import User, Token
 
 
@@ -41,3 +46,29 @@ class TestUser(unittest.TestCase):
         self.assertEqual("tokenvalue", token.id)
         self.assertEqual(self.user.email, token.email)
         self.assertEqual(self.user.token, token.id)
+
+    @mock.patch("time.time")
+    def test_generate_reset_password_url(self, mock_time):
+        mock_time.return_value = 1000
+        expected_signature = hashlib.sha256(
+            "http://localhost/" + "foo@bar.com" + self.user.password +
+            self.user.token + "4600" + config.PASSWORD_SALT).hexdigest()
+        expected_url = "http://localhost/?{0}".format(urllib.urlencode({
+            "reset_signature": expected_signature,
+            "reset_email": self.user.email,
+            "reset_expiration": 4600
+        }))
+
+        actual_url = self.user.generate_reset_password_url("http://localhost/")
+        self.assertEqual(expected_url, actual_url)
+
+    def test_verify_reset_password_url(self):
+        signed_url = self.user.generate_reset_password_url("http://foo.com")
+        self.assertTrue(self.user.verify_reset_password_url(signed_url))
+
+    @mock.patch("time.time")
+    def test_verify_reset_password_url_expired(self, mock_time):
+        mock_time.return_value = 1000
+        signed_url = self.user.generate_reset_password_url("http://foo.com")
+        mock_time.return_value = 5000
+        self.assertFalse(self.user.verify_reset_password_url(signed_url))

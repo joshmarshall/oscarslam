@@ -1,4 +1,4 @@
-{% extends "base.htm" %}
+{% extends "home.htm" %}
 {% block body %}
 
 {% set total = sum([c.points for c in categories]) %}
@@ -7,8 +7,7 @@
 {% set remaining = winners.remaining_points %}
 {% set tallied = sum([categories.get(w).points for w in winners.winners]) %}
 
-
-<div class="col-sm-4 col-sm-offset-4">
+<div class="col-sm-6 col-sm-offset-3">
 
   {% if tallied %}
   <div class="tallied-points">
@@ -16,12 +15,15 @@
   </div>
   {% end %}
 
+  {% if len(winners.winners) != 0 %}
   <div class="progress">
     <div class="progress-bar progress-bar-success"
       style="width: {{ int((earned / float(total)) * 100) }}%;"></div>
     <div class="progress-bar progress-bar-danger"
       style="width: {{ int((missed / float(total)) * 100) }}%;"></div>
   </div>
+  {% end %}
+
   <ul class="category-list">
   {% for category in categories %}
     {% set category_class = "" %}
@@ -43,17 +45,21 @@
           {{ category.points }}
         {% end %}
       </span>
-      <span class="title">{{ category.title }}</span>
+      <span class="title">
+        {% if not winner %}<a href="/contests/{{ contest_id }}/votes/{{ category.key }}">{% end %}
+        {{ category.title }}
+        {% if not winner %}</a>{% end %}
+      </span>
       {% if not winner %}
         <span class="subtitle">
-          {% if not vote %}<a class="btn btn-primary btn-xs" href="/vote/{{ category.key }}">Vote Now</a>
-          {% else %}YOU: {{ category.nominees.get(vote).title }}{% end %}
+          {% if not vote %}<a class="btn btn-primary btn-xs" href="/contests/{{ contest_id }}/votes/{{ category.key }}">Vote Now</a>
+          {% else %}YOU: <b>{{ category.nominees.get(vote).title }}</b>{% end %}
         </span>
       {% else %}
         <span class="winner">
         {% if winner == vote %}&#10003;{% else %}&#x2717;{% end %}
         {{ category.nominees.get(winner).title }}
-        {% if vote and winner != vote %} (YOU: {{ category.nominees.get(vote).title }}) {% end %}
+        {% if vote and winner != vote %} (YOU: <b>{{ category.nominees.get(vote).title }}</b>) {% end %}
         </span>
       {% end %}
     </li>

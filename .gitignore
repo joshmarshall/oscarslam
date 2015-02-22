@@ -1,5 +1,6 @@
 *.pyc
 *.swo
+*.swp
 ghostdriver.log
 *.db
 .venv

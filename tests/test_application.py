@@ -7,7 +7,9 @@ class TestApplication(HandlerTestCase):
 
     def get_app(self):
         store = mock.Mock()
-        return Application(store=store)
+        mailgun = mock.Mock()
+        queue = mock.Mock()
+        return Application(store=store, mailgun=mailgun, queue=queue)
 
     def test_index(self):
         response = self.fetch("/")

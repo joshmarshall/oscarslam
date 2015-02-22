@@ -1,5 +1,14 @@
 {% extends "base.htm" %}
 
-{% block body %}
+{% block contest_id %}{{contest_id}}{% end %}
 
+{% block nav %}
+<ul class="nav menu">
+  <li><a href="/contests/{{ contest_id }}">Contest</a></li>
+  <li><a href="/contests/{{ contest_id }}/votes">Vote</a></li>
+  <li><a href="/contests/{{ contest_id }}/leaders">Leaders</a></li>
+  {% if current_user.admin %}
+  <li><a href="/admin/{{ contest_id }}">Admin</a></li>
+  {% end %}
+</ul>
 {% end %}

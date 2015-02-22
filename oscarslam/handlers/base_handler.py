@@ -26,6 +26,10 @@ class BaseHandler(RequestHandler):
     def store(self):
         return self.application.settings["store"]
 
+    @property
+    def mailgun(self):
+        return self.application.settings["mailgun"]
+
     def render(self, *args, **kwargs):
         kwargs.setdefault("message", self.message)
         kwargs.setdefault("_m", self._render_message)

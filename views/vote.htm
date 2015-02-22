@@ -1,15 +1,15 @@
-{% extends "base.htm" %}
+{% extends "home.htm" %}
 
 {% block body %}
 
-<div class="col-sm-4 col-sm-offset-4">
+<div class="col-sm-6 col-sm-offset-3">
   <div class="progress">
     <div class="progress-bar" role="progressbar" aria-valuenow="{{ int(votes.progress * 100) }}"
       aria-valuemin="0" aria-valuemax="100" style="width: {{ int(votes.progress * 100) }}%;">
       {{ int(votes.progress * 100) }}% Complete</span>
     </div>
   </div>
-  <form method="POST" id="nominee-form" action="/vote/{{ vote_id }}">
+  <form method="POST" id="nominee-form" action="/contests/{{ contest_id }}/votes/{{ vote_id }}">
     <input type="hidden" id="nominee-id" name="nominee"/>
   </form>
   <h3>{{ category.title }}</h3>
@@ -39,7 +39,7 @@
     <ul class="dropdown-menu">
       {% for cat in categories %}
       <li class="{% if cat.key == vote_id %}current{%end%}">
-        <a href="/vote/{{ cat.key }}">{% if votes.get_vote(cat.key) %}&#10003;{% end %} {{ cat.title }}</a>
+        <a href="/contests/{{ contest_id }}/votes/{{ cat.key }}">{% if votes.get_vote(cat.key) %}&#10003;{% end %} {{ cat.title }}</a>
       </li>
       {% end %}
     </ul>
@@ -61,7 +61,7 @@
   $("#category-selector").click(function() {
     var new_vote_id = $(this).val();
     if (new_vote_id) {
-      window.location.href = "/vote/" + new_vote_id;
+      window.location.href = "/contests/{{ contest_id }}/votes/" + new_vote_id;
     }
   });
 
