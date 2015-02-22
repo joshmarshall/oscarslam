@@ -25,7 +25,7 @@ def main():
     mailgun = MailGunClient(
         config.MAILGUN_API_URL, config.MAILGUN_API_KEY, ioloop)
     application = Application(store=store, mailgun=mailgun, queue=queue)
-    application.listen(config.PORT)
+    application.listen(config.PORT, io_loop=ioloop, xheaders=True)
     print "Listening on {}".format(config.PORT)
     ioloop.start()
 

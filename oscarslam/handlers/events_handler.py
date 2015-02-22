@@ -5,8 +5,8 @@ from tornado.websocket import WebSocketHandler
 
 class EventsHandler(WebSocketHandler):
 
-    def check_origin(self):
-        return False
+    def check_origin(self, origin):
+        return True
 
     def open(self, contest_id):
         self.application.settings["queue"].add_subscriber(self.on_events)
