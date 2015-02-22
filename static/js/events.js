@@ -45,7 +45,7 @@
     if (!contest_id) {
       return;
     }
-    var protocol = (window.location.protocol === "https") ? "wss" : "ws";
+    var protocol = (window.location.protocol === "https:") ? "wss" : "ws";
     var hostname = window.location.host;
 
     var path = "/contests/" + contest_id + "/events";
