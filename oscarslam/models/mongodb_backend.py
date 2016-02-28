@@ -25,7 +25,7 @@ class MongoDBStore(object):
         data = instance.to_dict()
         if identifier:
             data.setdefault("_id", identifier)
-        new_identifier = collection.save(data, safe=True)
+        new_identifier = collection.save(data)
         instance.identify(new_identifier)
 
     @norm.framework.deserialize
@@ -40,6 +40,10 @@ class MongoDBStore(object):
         collection = self._database[_to_model_name(model)]
         for result in collection.find(query):
             yield model.from_dict(result)
+
+    def delete(self, model, key):
+        collection = self._database[_to_model_name(model)]
+        collection.remove({"_id": key})
 
 
 def _to_model_name(model):

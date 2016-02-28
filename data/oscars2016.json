@@ -1,0 +1,900 @@
+{
+  "points": {
+    "writing-original-screenplay": 4,
+    "film-editing": 3,
+    "short-film-animated": 3,
+    "documentary-short": 2,
+    "sound-mixing": 2,
+    "short-film-live-action": 3,
+    "actress-in-a-supporting-role": 4,
+    "actor-in-a-leading-role": 5,
+    "cinematography": 3,
+    "visual-effects": 2,
+    "music-original-score": 3,
+    "writing-adapted-screenplay": 4,
+    "directing": 5,
+    "makeup-and-hairstyling": 2,
+    "best-picture": 8,
+    "actress-in-a-leading-role": 5,
+    "sound-editing": 2,
+    "production-design": 2,
+    "music-original-song": 3,
+    "documentary-feature": 5,
+    "actor-in-a-supporting-role": 4,
+    "costume-design": 2,
+    "foreign-language-film": 4,
+    "animated-feature-film": 5
+  },
+  "categories": [
+    {
+      "nominees": [
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/05162434/f1c5ca53316b9b0f889a9d55bf2b31c394541dc979a981ef16a5bec95cc737d3-370x492.jpg?t=1452757785",
+          "subtitle": "Adam McKay",
+          "key": "directing-the-big-short",
+          "title": "The Big Short"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07124325/5fe7fe4d97e8d1f863f873e889a2193789b6470e5e6ddae5529305e177bf8ed7-370x492.jpg?t=1452758273",
+          "subtitle": "George Miller",
+          "key": "directing-mad-max-fury-road",
+          "title": "Mad Max: Fury Road"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/06180744/773bddf4631d268b7a1d8fe196700c54db8e328aec2f9da422dd9d464859ec41-370x492.jpg?t=1452760712",
+          "subtitle": "Alejandro G. Iñárritu",
+          "key": "directing-the-revenant",
+          "title": "The Revenant"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/06173251/8b6e81164efd39b69954972919b6d33d8fe85e4acb46f6e95262128fa2d4e90e-370x492.jpg?t=1452758881",
+          "subtitle": "Lenny Abrahamson",
+          "key": "directing-room",
+          "title": "Room"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/06131956/6ee6a434d2504ffeac420559cf02b9c1a2e058642ef6637ba38c795ba4a5f141-370x492.jpg?t=1452761176",
+          "subtitle": "Tom McCarthy",
+          "key": "directing-spotlight",
+          "title": "Spotlight"
+        }
+      ],
+      "key": "directing",
+      "title": "Directing"
+    },
+    {
+      "nominees": [
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/05162434/f1c5ca53316b9b0f889a9d55bf2b31c394541dc979a981ef16a5bec95cc737d3-370x492.jpg?t=1452757785",
+          "subtitle": "Hank Corwin",
+          "key": "film-editing-the-big-short",
+          "title": "The Big Short"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07124325/5fe7fe4d97e8d1f863f873e889a2193789b6470e5e6ddae5529305e177bf8ed7-370x492.jpg?t=1452758273",
+          "subtitle": "Margaret Sixel",
+          "key": "film-editing-mad-max-fury-road",
+          "title": "Mad Max: Fury Road"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/06180744/773bddf4631d268b7a1d8fe196700c54db8e328aec2f9da422dd9d464859ec41-370x492.jpg?t=1452760712",
+          "subtitle": "Stephen Mirrione",
+          "key": "film-editing-the-revenant",
+          "title": "The Revenant"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/06131956/6ee6a434d2504ffeac420559cf02b9c1a2e058642ef6637ba38c795ba4a5f141-370x492.jpg?t=1452761176",
+          "subtitle": "Tom McArdle",
+          "key": "film-editing-spotlight",
+          "title": "Spotlight"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/06122256/37e82ec6d6cf8b279bb68b2c5389cb96c312ec69e80e99419d5029272d612103-370x492.jpg?t=1452755757",
+          "subtitle": "Maryann Brandon and Mary Jo Markey",
+          "key": "film-editing-star-wars-the-force-awakens",
+          "title": "Star Wars: The Force Awakens"
+        }
+      ],
+      "key": "film-editing",
+      "title": "Film Editing"
+    },
+    {
+      "nominees": [
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/13233415/d2e31ea95556f0d4909548bb277e7c6979bbb9153979a784f1750a7eba6a6124-370x492.jpg?t=1452776405",
+          "subtitle": "Gabriel Osorio and Pato Escala",
+          "key": "short-film-animated-bear-story",
+          "title": "Bear Story"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/11125617/d0af2f064d04a6fbdc280c8eb140d67964c004d060074da5c50a7cfd90ef3ece-370x492.jpg?t=1452777120",
+          "subtitle": "Richard Williams and Imogen Sutton",
+          "key": "short-film-animated-prologue",
+          "title": "Prologue"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/11114308/e0687f74ec9e17a646b9aa9c54780f88fbd736cdf9c7257d9440f34b10137cee-370x492.jpg?t=1452756227",
+          "subtitle": "Sanjay Patel and Nicole Grindle",
+          "key": "short-film-animated-sanjays-super-team",
+          "title": "Sanjay's Super Team"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/11121830/a39eec1518d0832847905c1370bb1711770bd2955a3528d5b8de6153760c632f-370x492.jpg?t=1452756262",
+          "subtitle": "Konstantin Bronzit",
+          "key": "short-film-animated-we-cant-live-without-cosmos",
+          "title": "We Can't Live without Cosmos"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/11124941/4edc1645760f5d20edf79dfa367d9b3f0cf21a14320ea3801cac4c529a67ab6a-370x492.jpg?t=1452756287",
+          "subtitle": "Don Hertzfeldt",
+          "key": "short-film-animated-world-of-tomorrow",
+          "title": "World of Tomorrow"
+        }
+      ],
+      "key": "short-film-animated",
+      "title": "Short Film (Animated)"
+    },
+    {
+      "nominees": [
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/11095403/a10f32c96b96249524d90e95f6fa62340e4ca75b6ba237ceb07b24d3971ad475-370x492.jpg?t=1452755916",
+          "subtitle": "David Darg and Bryn Mooser",
+          "key": "documentary-short-body-team-12",
+          "title": "Body Team 12"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/11103021/fd7d827504c903cf9ea50543e66e9d5841dc2a34cdd0d8de0741f70b2c236da1-370x492.jpg?t=1452755973",
+          "subtitle": "Courtney Marsh and Jerry Franck",
+          "key": "documentary-short-chau-beyond-the-lines",
+          "title": "Chau, beyond the Lines"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/11103739/e6ff42cc358861f631ebc08d78b994c1fa7181124d091c2bed04bb7ced68bb29-370x492.jpg?t=1452756002",
+          "subtitle": "Adam Benzine",
+          "key": "documentary-short-claude-lanzmann-spectres-of-the-shoah",
+          "title": "Claude Lanzmann: Spectres of the Shoah"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/12162832/9d627a650b827e010b955c04e8f906fb46b461a82d68dfa9315eb941ecacc2cf-370x492.jpg?t=1452756052",
+          "subtitle": "Sharmeen Obaid-Chinoy",
+          "key": "documentary-short-a-girl-in-the-river-the-price-of-forgiveness",
+          "title": "A Girl in the River: The Price of Forgiveness"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/12171923/c500add8fbc2bf6057a99ee28089cefc73328d44fa97151c019fb0d25e48967e-370x492.jpg?t=1452756082",
+          "subtitle": "Dee Hibbert-Jones and Nomi Talisman",
+          "key": "documentary-short-last-day-of-freedom",
+          "title": "Last Day of Freedom"
+        }
+      ],
+      "key": "documentary-short",
+      "title": "Documentary (Short Subject)"
+    },
+    {
+      "nominees": [
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/19094832/22c2ede873d33f6a8a2a89d016323a326b49f00a2c2cf857c48a44c85b2b24e5-370x492.jpg?t=1456407669",
+          "subtitle": "Andy Nelson, Gary Rydstrom and Drew Kunin",
+          "key": "sound-mixing-bridge-of-spies",
+          "title": "Bridge of Spies"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07124325/5fe7fe4d97e8d1f863f873e889a2193789b6470e5e6ddae5529305e177bf8ed7-370x492.jpg?t=1452758273",
+          "subtitle": "Chris Jenkins, Gregg Rudloff and Ben Osmo",
+          "key": "sound-mixing-mad-max-fury-road",
+          "title": "Mad Max: Fury Road"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07122304/8fba759e9ecc6f8d378e42abdde723c3f5f8c3a9a31f6bb062fa547db12c4f1f-370x492.jpg?t=1452755437",
+          "subtitle": "Paul Massey, Mark Taylor and Mac Ruth",
+          "key": "sound-mixing-the-martian",
+          "title": "The Martian"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/06180744/773bddf4631d268b7a1d8fe196700c54db8e328aec2f9da422dd9d464859ec41-370x492.jpg?t=1452760712",
+          "subtitle": "Jon Taylor, Frank A. Montaño, Randy Thom and Chris Duesterdiek",
+          "key": "sound-mixing-the-revenant",
+          "title": "The Revenant"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/06122256/37e82ec6d6cf8b279bb68b2c5389cb96c312ec69e80e99419d5029272d612103-370x492.jpg?t=1452755757",
+          "subtitle": "Andy Nelson, Christopher Scarabosio and Stuart Wilson",
+          "key": "sound-mixing-star-wars-the-force-awakens",
+          "title": "Star Wars: The Force Awakens"
+        }
+      ],
+      "key": "sound-mixing",
+      "title": "Sound Mixing"
+    },
+    {
+      "nominees": [
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/13232728/00ea15988df4039fb199d6ff240bfdf478db6225e386a6392aa15050a4c466ba-370x492.jpg?t=1452750396",
+          "subtitle": "Basil Khalil and Eric Dupont",
+          "key": "short-film-live-action-ave-maria",
+          "title": "Ave Maria"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07130858/2a43e01e51cd38a3910538069b7223e89daaaf54efd71388b6c6e5c0a2708eda-370x492.jpg?t=1452750315",
+          "subtitle": "Henry Hughes",
+          "key": "short-film-live-action-day-one",
+          "title": "Day One"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07143656/eda87b10d5a510c499a9f0a8f7d60f411cb15c2b99331e4febb8fdd37616f734-370x492.jpg?t=1452750336",
+          "subtitle": "Patrick Vollrath",
+          "key": "short-film-live-action-everything-will-be-okay-alles-wird-gut",
+          "title": "Everything Will Be Okay (Alles Wird Gut)"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/13233016/69d1686a857d030df21f4560ec12cd7a87123fd2a4b27aebee20b27926f3a0c9-370x492.jpg?t=1452750400",
+          "subtitle": "Jamie Donoughue",
+          "key": "short-film-live-action-shok",
+          "title": "Shok"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/13233242/6660543d47c9611ca914b55012d281f55919b9aa30e2b6024e49c707ea553d51-370x492.jpg?t=1452750401",
+          "subtitle": "Benjamin Cleary and Serena Armitage",
+          "key": "short-film-live-action-stutterer",
+          "title": "Stutterer"
+        }
+      ],
+      "key": "short-film-live-action",
+      "title": "Short Film (Live Action)"
+    },
+    {
+      "nominees": [
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/08122138/ad65f5cea0e5d93059194620ccfab978cc09038bd18d41bcc670f0e6c950239b-370x492.jpg?t=1452761706",
+          "subtitle": "The Hateful Eight",
+          "key": "actress-in-a-supporting-role-jennifer-jason-leigh",
+          "title": "Jennifer Jason Leigh"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07115549/c1a3c86fedea11a1faf942230443b93248a6216405fb1915a9900c133ff47359-370x492.jpg?t=1452759233",
+          "subtitle": "Carol",
+          "key": "actress-in-a-supporting-role-rooney-mara",
+          "title": "Rooney Mara"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/06131938/38dd00a797332563afafbe9d5f6195936cb4bc818248b26d9ec48f53346decc4-370x492.jpg?t=1452755638",
+          "subtitle": "Spotlight",
+          "key": "actress-in-a-supporting-role-rachel-mcadams",
+          "title": "Rachel McAdams"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07125027/bbf7482022dfe200c9f49bd851ea7210c5997569817e15aa10dff970b0b170a3-370x492.jpg?t=1452754121",
+          "subtitle": "The Danish Girl",
+          "key": "actress-in-a-supporting-role-alicia-vikander",
+          "title": "Alicia Vikander"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/06114218/12b74df02fab63592c43be430d174cb3f87728f5183d75a8a8abf3e3b6936c4f-370x492.jpg?t=1452757620",
+          "subtitle": "Steve Jobs",
+          "key": "actress-in-a-supporting-role-kate-winslet",
+          "title": "Kate Winslet"
+        }
+      ],
+      "key": "actress-in-a-supporting-role",
+      "title": "Actress in a Supporting Role"
+    },
+    {
+      "nominees": [
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/05172521/a44b99e8aff67208167be5e43b1ebf64c349da1fcca312cbd056dc7c4161da5c-370x492.jpg?t=1452877787",
+          "subtitle": "Trumbo",
+          "key": "actor-in-a-leading-role-bryan-cranston",
+          "title": "Bryan Cranston"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07122258/2eedf53bd577fc5231ff85ca0199800e8f14d0789b3316c46fac1243034ec0b6-370x492.jpg?t=1452755423",
+          "subtitle": "The Martian",
+          "key": "actor-in-a-leading-role-matt-damon",
+          "title": "Matt Damon"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/06180712/1cd23eb2ba2f1edf37372f333900bf52dd38ece8e0caedc57ec8b9ccd78a4fb4-370x492.jpg?t=1452875780",
+          "subtitle": "The Revenant",
+          "key": "actor-in-a-leading-role-leonardo-dicaprio",
+          "title": "Leonardo DiCaprio"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/06114235/4594b0f18377c5d73c47b19277ac727bbf1107013dc655ec5e3058ba232753f1-370x492.jpg?t=1452755572",
+          "subtitle": "Steve Jobs",
+          "key": "actor-in-a-leading-role-michael-fassbender",
+          "title": "Michael Fassbender"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07125014/b18ecdaa71cdb4c35391b592000ebf2f105bac44aa5b80c508b6a1fd875383d2-370x492.jpg?t=1452754090",
+          "subtitle": "The Danish Girl",
+          "key": "actor-in-a-leading-role-eddie-redmayne",
+          "title": "Eddie Redmayne"
+        }
+      ],
+      "key": "actor-in-a-leading-role",
+      "title": "Actor in a Leading Role"
+    },
+    {
+      "nominees": [
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07115425/77c96822d2cf3adc31f0321808e9659f8a2d381503b1fcb3f773d40c1caf25be-370x492.jpg?t=1452753744",
+          "subtitle": "Ed Lachman",
+          "key": "cinematography-carol",
+          "title": "Carol"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/08122013/bc4dc4c865a73d7f79ada6d44a84a2b7304e8677b41bab71c29f9f022ebc03e0-370x492.jpeg?t=1452754569",
+          "subtitle": "Robert Richardson",
+          "key": "cinematography-the-hateful-eight",
+          "title": "The Hateful Eight"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07124325/5fe7fe4d97e8d1f863f873e889a2193789b6470e5e6ddae5529305e177bf8ed7-370x492.jpg?t=1452758273",
+          "subtitle": "John Seale",
+          "key": "cinematography-mad-max-fury-road",
+          "title": "Mad Max: Fury Road"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/06180744/773bddf4631d268b7a1d8fe196700c54db8e328aec2f9da422dd9d464859ec41-370x492.jpg?t=1452760712",
+          "subtitle": "Emmanuel Lubezki",
+          "key": "cinematography-the-revenant",
+          "title": "The Revenant"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/06155448/c3d8dcea66659c9ebf85c9deacc3bb3b5e849a34739c54047c10cbe8c2fe7fb2-370x492.jpg?t=1452755477",
+          "subtitle": "Roger Deakins",
+          "key": "cinematography-sicario",
+          "title": "Sicario"
+        }
+      ],
+      "key": "cinematography",
+      "title": "Cinematography"
+    },
+    {
+      "nominees": [
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07150125/3086769cfa36c94d625e958981bfc6901c2d116dbd80fb864e067e333ba56542-370x492.jpg?t=1452754346",
+          "subtitle": "Andrew Whitehurst, Paul Norris, Mark Ardington and Sara Bennett",
+          "key": "visual-effects-ex-machina",
+          "title": "Ex Machina"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07124325/5fe7fe4d97e8d1f863f873e889a2193789b6470e5e6ddae5529305e177bf8ed7-370x492.jpg?t=1452758273",
+          "subtitle": "Andrew Jackson, Tom Wood, Dan Oliver and Andy Williams",
+          "key": "visual-effects-mad-max-fury-road",
+          "title": "Mad Max: Fury Road"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/06122256/37e82ec6d6cf8b279bb68b2c5389cb96c312ec69e80e99419d5029272d612103-370x492.jpg?t=1452755757",
+          "subtitle": "Roger Guyett, Patrick Tubach, Neal Scanlan and Chris Corbould",
+          "key": "visual-effects-star-wars-the-force-awakens",
+          "title": "Star Wars: The Force Awakens"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07122304/8fba759e9ecc6f8d378e42abdde723c3f5f8c3a9a31f6bb062fa547db12c4f1f-370x492.jpg?t=1452755437",
+          "subtitle": "Richard Stammers, Anders Langlands, Chris Lawrence and Steven Warner",
+          "key": "visual-effects-the-martian",
+          "title": "The Martian"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/06180744/773bddf4631d268b7a1d8fe196700c54db8e328aec2f9da422dd9d464859ec41-370x492.jpg?t=1452760712",
+          "subtitle": "Rich McBride, Matthew Shumway, Jason Smith and Cameron Waldbauer",
+          "key": "visual-effects-the-revenant",
+          "title": "The Revenant"
+        }
+      ],
+      "key": "visual-effects",
+      "title": "Visual Effects"
+    },
+    {
+      "nominees": [
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/19094832/22c2ede873d33f6a8a2a89d016323a326b49f00a2c2cf857c48a44c85b2b24e5-370x492.jpg?t=1456407669",
+          "subtitle": "Thomas Newman",
+          "key": "music-original-score-bridge-of-spies",
+          "title": "Bridge of Spies"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07115425/77c96822d2cf3adc31f0321808e9659f8a2d381503b1fcb3f773d40c1caf25be-370x492.jpg?t=1452753744",
+          "subtitle": "Carter Burwell",
+          "key": "music-original-score-carol",
+          "title": "Carol"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/08122013/bc4dc4c865a73d7f79ada6d44a84a2b7304e8677b41bab71c29f9f022ebc03e0-370x492.jpeg?t=1452754569",
+          "subtitle": "Ennio Morricone",
+          "key": "music-original-score-the-hateful-eight",
+          "title": "The Hateful Eight"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/06155448/c3d8dcea66659c9ebf85c9deacc3bb3b5e849a34739c54047c10cbe8c2fe7fb2-370x492.jpg?t=1452755477",
+          "subtitle": "Jóhann Jóhannsson",
+          "key": "music-original-score-sicario",
+          "title": "Sicario"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/06122256/37e82ec6d6cf8b279bb68b2c5389cb96c312ec69e80e99419d5029272d612103-370x492.jpg?t=1452755757",
+          "subtitle": "John Williams",
+          "key": "music-original-score-star-wars-the-force-awakens",
+          "title": "Star Wars: The Force Awakens"
+        }
+      ],
+      "key": "music-original-score",
+      "title": "Music (Original Score)"
+    },
+    {
+      "nominees": [
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/05162434/f1c5ca53316b9b0f889a9d55bf2b31c394541dc979a981ef16a5bec95cc737d3-370x492.jpg?t=1452757785",
+          "subtitle": "Screenplay by Charles Randolph and Adam McKay",
+          "key": "writing-adapted-screenplay-the-big-short",
+          "title": "The Big Short"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07114336/587660ca08ee3eb89350921571b69736dcd09bd3b9090aab796459d6cc8c0153-370x492.jpg?t=1452753642",
+          "subtitle": "Screenplay by Nick Hornby",
+          "key": "writing-adapted-screenplay-brooklyn",
+          "title": "Brooklyn"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07115425/77c96822d2cf3adc31f0321808e9659f8a2d381503b1fcb3f773d40c1caf25be-370x492.jpg?t=1452753744",
+          "subtitle": "Screenplay by Phyllis Nagy",
+          "key": "writing-adapted-screenplay-carol",
+          "title": "Carol"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07122304/8fba759e9ecc6f8d378e42abdde723c3f5f8c3a9a31f6bb062fa547db12c4f1f-370x492.jpg?t=1452755437",
+          "subtitle": "Screenplay by Drew Goddard",
+          "key": "writing-adapted-screenplay-the-martian",
+          "title": "The Martian"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/06173251/8b6e81164efd39b69954972919b6d33d8fe85e4acb46f6e95262128fa2d4e90e-370x492.jpg?t=1452758881",
+          "subtitle": "Screenplay by Emma Donoghue",
+          "key": "writing-adapted-screenplay-room",
+          "title": "Room"
+        }
+      ],
+      "key": "writing-adapted-screenplay",
+      "title": "Writing (Adapted Screenplay)"
+    },
+    {
+      "nominees": [
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/19094832/22c2ede873d33f6a8a2a89d016323a326b49f00a2c2cf857c48a44c85b2b24e5-370x492.jpg?t=1456407669",
+          "subtitle": "Written by Matt Charman and Ethan Coen & Joel Coen",
+          "key": "writing-original-screenplay-bridge-of-spies",
+          "title": "Bridge of Spies"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07150125/3086769cfa36c94d625e958981bfc6901c2d116dbd80fb864e067e333ba56542-370x492.jpg?t=1452754346",
+          "subtitle": "Written by Alex Garland",
+          "key": "writing-original-screenplay-ex-machina",
+          "title": "Ex Machina"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07174757/d69fb0d55323f1d70fd91d2f63e041fa0f56367d59eb24a8e3d22d3b8c7e34cd-370x492.jpg?t=1452754849",
+          "subtitle": "Screenplay by Pete Docter, Meg LeFauve, Josh Cooley; Original story by Pete Docter, Ronnie del Carmen",
+          "key": "writing-original-screenplay-inside-out",
+          "title": "Inside Out"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/06131956/6ee6a434d2504ffeac420559cf02b9c1a2e058642ef6637ba38c795ba4a5f141-370x492.jpg?t=1452761176",
+          "subtitle": "Written by Josh Singer & Tom McCarthy",
+          "key": "writing-original-screenplay-spotlight",
+          "title": "Spotlight"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/06110246/753972cfe1b2de6be4cbd51dcd43912eb3c217855ae2509f7450f297f394113e-370x492.jpg?t=1452755666",
+          "subtitle": "Screenplay by Jonathan Herman and Andrea Berloff; Story by S. Leigh Savidge & Alan Wenkus and Andrea Berloff",
+          "key": "writing-original-screenplay-straight-outta-compton",
+          "title": "Straight Outta Compton"
+        }
+      ],
+      "key": "writing-original-screenplay",
+      "title": "Writing (Original Screenplay)"
+    },
+    {
+      "nominees": [
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07124325/5fe7fe4d97e8d1f863f873e889a2193789b6470e5e6ddae5529305e177bf8ed7-370x492.jpg?t=1452758273",
+          "subtitle": "Lesley Vanderwalt, Elka Wardega and Damian Martin",
+          "key": "makeup-and-hairstyling-mad-max-fury-road",
+          "title": "Mad Max: Fury Road"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/12174148/7026d5d489d19dbef844c59fbe0e17e9646979cc0062f997526be3735682fe99-370x492.jpeg?t=1452755125",
+          "subtitle": "Love Larson and Eva von Bahr",
+          "key": "makeup-and-hairstyling-the-100-year-old-man-who-climbed-out-the-window-and-disappeared",
+          "title": "The 100-Year-Old Man Who Climbed Out the Window and Disappeared"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/06180744/773bddf4631d268b7a1d8fe196700c54db8e328aec2f9da422dd9d464859ec41-370x492.jpg?t=1452760712",
+          "subtitle": "Siân Grigg, Duncan Jarman and Robert Pandini",
+          "key": "makeup-and-hairstyling-the-revenant",
+          "title": "The Revenant"
+        }
+      ],
+      "key": "makeup-and-hairstyling",
+      "title": "Makeup and Hairstyling"
+    },
+    {
+      "nominees": [
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/05162434/f1c5ca53316b9b0f889a9d55bf2b31c394541dc979a981ef16a5bec95cc737d3-370x492.jpg?t=1452757785",
+          "subtitle": "Brad Pitt, Dede Gardner and Jeremy Kleiner, Producers",
+          "key": "best-picture-the-big-short",
+          "title": "The Big Short"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/19094832/22c2ede873d33f6a8a2a89d016323a326b49f00a2c2cf857c48a44c85b2b24e5-370x492.jpg?t=1456407669",
+          "subtitle": "Steven Spielberg, Marc Platt and Kristie Macosko Krieger, Producers",
+          "key": "best-picture-bridge-of-spies",
+          "title": "Bridge of Spies"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07114336/587660ca08ee3eb89350921571b69736dcd09bd3b9090aab796459d6cc8c0153-370x492.jpg?t=1452753642",
+          "subtitle": "Finola Dwyer and Amanda Posey, Producers",
+          "key": "best-picture-brooklyn",
+          "title": "Brooklyn"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07124325/5fe7fe4d97e8d1f863f873e889a2193789b6470e5e6ddae5529305e177bf8ed7-370x492.jpg?t=1452758273",
+          "subtitle": "Doug Mitchell and George Miller, Producers",
+          "key": "best-picture-mad-max-fury-road",
+          "title": "Mad Max: Fury Road"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07122304/8fba759e9ecc6f8d378e42abdde723c3f5f8c3a9a31f6bb062fa547db12c4f1f-370x492.jpg?t=1452755437",
+          "subtitle": "Simon Kinberg, Ridley Scott, Michael Schaefer and Mark Huffam, Producers",
+          "key": "best-picture-the-martian",
+          "title": "The Martian"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/06180744/773bddf4631d268b7a1d8fe196700c54db8e328aec2f9da422dd9d464859ec41-370x492.jpg?t=1452760712",
+          "subtitle": "Arnon Milchan, Steve Golin, Alejandro G. Iñárritu, Mary Parent and Keith Redmon, Producers",
+          "key": "best-picture-the-revenant",
+          "title": "The Revenant"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/06173251/8b6e81164efd39b69954972919b6d33d8fe85e4acb46f6e95262128fa2d4e90e-370x492.jpg?t=1452758881",
+          "subtitle": "Ed Guiney, Producer",
+          "key": "best-picture-room",
+          "title": "Room"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/06131956/6ee6a434d2504ffeac420559cf02b9c1a2e058642ef6637ba38c795ba4a5f141-370x492.jpg?t=1452761176",
+          "subtitle": "Michael Sugar, Steve Golin, Nicole Rocklin and Blye Pagon Faust, Producers",
+          "key": "best-picture-spotlight",
+          "title": "Spotlight"
+        }
+      ],
+      "key": "best-picture",
+      "title": "Best Picture"
+    },
+    {
+      "nominees": [
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07115409/f73375d42b82d12e6516b5821bfcfef9594315bc64e1d03598e63f2c50d8d4f3-370x492.jpg?t=1452756262",
+          "subtitle": "Carol",
+          "key": "actress-in-a-leading-role-cate-blanchett",
+          "title": "Cate Blanchett"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/06173115/bbaf3dcdd21aae93445e769b1be2790340ffcde366e14e068da7d043cb7b6c1a-370x492.jpg?t=1452757248",
+          "subtitle": "Room",
+          "key": "actress-in-a-leading-role-brie-larson",
+          "title": "Brie Larson"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07173055/052808436244194a78781c4968f210cfa5ecaf7c9bb72130a455d046983a892a-370x492.jpg?t=1452754963",
+          "subtitle": "Joy",
+          "key": "actress-in-a-leading-role-jennifer-lawrence",
+          "title": "Jennifer Lawrence"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/05102732/f6d902bfec345addc6128c7675cf4ba441f6f56d56132232d2fb0eea2d1799f5-370x492.jpg?t=1452754481",
+          "subtitle": "45 Years",
+          "key": "actress-in-a-leading-role-charlotte-rampling",
+          "title": "Charlotte Rampling"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07114320/f78b887de364917f7d24497620ab832c27b62df0eeee2327b17bd44f87f1081a-370x492.jpg?t=1452753626",
+          "subtitle": "Brooklyn",
+          "key": "actress-in-a-leading-role-saoirse-ronan",
+          "title": "Saoirse Ronan"
+        }
+      ],
+      "key": "actress-in-a-leading-role",
+      "title": "Actress in a Leading Role"
+    },
+    {
+      "nominees": [
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07124325/5fe7fe4d97e8d1f863f873e889a2193789b6470e5e6ddae5529305e177bf8ed7-370x492.jpg?t=1452758273",
+          "subtitle": "Mark Mangini and David White",
+          "key": "sound-editing-mad-max-fury-road",
+          "title": "Mad Max: Fury Road"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07122304/8fba759e9ecc6f8d378e42abdde723c3f5f8c3a9a31f6bb062fa547db12c4f1f-370x492.jpg?t=1452755437",
+          "subtitle": "Oliver Tarney",
+          "key": "sound-editing-the-martian",
+          "title": "The Martian"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/06180744/773bddf4631d268b7a1d8fe196700c54db8e328aec2f9da422dd9d464859ec41-370x492.jpg?t=1452760712",
+          "subtitle": "Martin Hernandez and Lon Bender",
+          "key": "sound-editing-the-revenant",
+          "title": "The Revenant"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/06155448/c3d8dcea66659c9ebf85c9deacc3bb3b5e849a34739c54047c10cbe8c2fe7fb2-370x492.jpg?t=1452755477",
+          "subtitle": "Alan Robert Murray",
+          "key": "sound-editing-sicario",
+          "title": "Sicario"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/06122256/37e82ec6d6cf8b279bb68b2c5389cb96c312ec69e80e99419d5029272d612103-370x492.jpg?t=1452755757",
+          "subtitle": "Matthew Wood and David Acord",
+          "key": "sound-editing-star-wars-the-force-awakens",
+          "title": "Star Wars: The Force Awakens"
+        }
+      ],
+      "key": "sound-editing",
+      "title": "Sound Editing"
+    },
+    {
+      "nominees": [
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/19094832/22c2ede873d33f6a8a2a89d016323a326b49f00a2c2cf857c48a44c85b2b24e5-370x492.jpg?t=1456407669",
+          "subtitle": "Adam Stockhausen (Production Design); Rena DeAngelo and Bernhard Henrich (Set Decoration)",
+          "key": "production-design-bridge-of-spies",
+          "title": "Bridge of Spies"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07125153/1641d8e4f3d7ba23de6fe7aca6ce9bf20a154577c556007fd643363e99f5f925-370x492.jpg?t=1452758459",
+          "subtitle": "Eve Stewart (Production Design); Michael Standish (Set Decoration)",
+          "key": "production-design-the-danish-girl",
+          "title": "The Danish Girl"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07124325/5fe7fe4d97e8d1f863f873e889a2193789b6470e5e6ddae5529305e177bf8ed7-370x492.jpg?t=1452758273",
+          "subtitle": "Colin Gibson (Production Design); Lisa Thompson (Set Decoration)",
+          "key": "production-design-mad-max-fury-road",
+          "title": "Mad Max: Fury Road"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07122304/8fba759e9ecc6f8d378e42abdde723c3f5f8c3a9a31f6bb062fa547db12c4f1f-370x492.jpg?t=1452755437",
+          "subtitle": "Arthur Max (Production Design); Celia Bobak (Set Decoration)",
+          "key": "production-design-the-martian",
+          "title": "The Martian"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/06180744/773bddf4631d268b7a1d8fe196700c54db8e328aec2f9da422dd9d464859ec41-370x492.jpg?t=1452760712",
+          "subtitle": "Jack Fisk (Production Design); Hamish Purdy (Set Decoration)",
+          "key": "production-design-the-revenant",
+          "title": "The Revenant"
+        }
+      ],
+      "key": "production-design",
+      "title": "Production Design"
+    },
+    {
+      "nominees": [
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/13225258/1fc8c77fc718d3b508d65dda18426f9d2c08e93b02e758e35b8706738a02ee1e-370x492.jpg?t=1452754429",
+          "subtitle": "Music and Lyric by The Weeknd, Ahmad Balshe, Jason Quenneville and Stephan Moccio",
+          "key": "music-original-song-earned-it-from-fifty-shades-of-grey",
+          "title": "\"Earned It\" from Fifty Shades of Grey"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/13235251/f6a70423dc4cef9dd9bb3cfde3e2d28e1afb266a112cd3a067aeb7a671a8279c-370x492.jpg?t=1452755205",
+          "subtitle": "Music by J. Ralph; Lyric by Anohni",
+          "key": "music-original-song-manta-ray-from-racing-extinction",
+          "title": "\"Manta Ray\" from Racing Extinction"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/05160537/25ff5a950552e5d49706c58281f283bbd485c5f1ff17a908d038515dba2a3560-370x492.jpg?t=1452783592",
+          "subtitle": "Music and Lyric by David Lang",
+          "key": "music-original-song-simple-song-3-from-youth",
+          "title": "\"Simple Song #3\" from Youth"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/08103618/c68bede4214db3fa6b00e4d6766278ee4e5ff98c6c3323106b6dd1e215d440fc-370x492.jpg?t=1452773159",
+          "subtitle": "Music and Lyric by Diane Warren and Lady Gaga",
+          "key": "music-original-song-til-it-happens-to-you-from-the-hunting-ground",
+          "title": "\"Til It Happens To You\" from The Hunting Ground"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/06151307/96c27327ce86e1393b842382fa066fe58a44c710605b4c3d163562566ac8250e-370x492.jpg?t=1452780418",
+          "subtitle": "Music and Lyric by Jimmy Napes and Sam Smith",
+          "key": "music-original-song-writings-on-the-wall-from-spectre",
+          "title": "\"Writing's On The Wall\" from Spectre"
+        }
+      ],
+      "key": "music-original-song",
+      "title": "Music (Original Song)"
+    },
+    {
+      "nominees": [
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/05144151/95114614770e1f8118804bc009d4ff88767d6ce8c81180cc618ab8f645ab4fe4-370x492.jpg?t=1452752742",
+          "subtitle": "Asif Kapadia and James Gay-Rees",
+          "key": "documentary-feature-amy",
+          "title": "Amy"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07120241/2034338ed13e719cd3591cad876097d048200363f3a47c2cf25ecc635ab8afc3-370x492.jpg?t=1452753817",
+          "subtitle": "Matthew Heineman and Tom Yellin",
+          "key": "documentary-feature-cartel-land",
+          "title": "Cartel Land"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07135132/03be6b6a8631d7f85ee0e6ca3c7b056db4ae3f78dbebe2f23b0aee0f8a097d85-370x492.jpg?t=1452755124",
+          "subtitle": "Joshua Oppenheimer and Signe Byrge Sørensen",
+          "key": "documentary-feature-the-look-of-silence",
+          "title": "The Look of Silence"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/05164120/b2e918cb544423c4041d0ae3fd010d81d6467c1438e0e2adabbfc6e0636cfae0-370x492.jpg?t=1452756013",
+          "subtitle": "Liz Garbus, Amy Hobby and Justin Wilkes",
+          "key": "documentary-feature-what-happened-miss-simone",
+          "title": "What Happened, Miss Simone?"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/12181448/7012c660b7ce0a4f850e0829996238f2fcd911247b68f303c33cd3bb09dc702a-370x492.jpg?t=1452756154",
+          "subtitle": "Evgeny Afineevsky and Den Tolmor",
+          "key": "documentary-feature-winter-on-fire-ukraines-fight-for-freedom",
+          "title": "Winter on Fire: Ukraine's Fight for Freedom"
+        }
+      ],
+      "key": "documentary-feature",
+      "title": "Documentary (Feature)"
+    },
+    {
+      "nominees": [
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/05162441/1f53c2cfb1df54d4015af5eb7e18538ca00ee8cd572b93805da90a3c6df41d5c-370x492.jpg?t=1452753093",
+          "subtitle": "The Big Short",
+          "key": "actor-in-a-supporting-role-christian-bale",
+          "title": "Christian Bale"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/13214608/762006ad6c4733094f2981dc9f5c935f4fa97e04a1dc696538fc2f1ed0437f88-370x492.jpg?t=1452756471",
+          "subtitle": "The Revenant",
+          "key": "actor-in-a-supporting-role-tom-hardy",
+          "title": "Tom Hardy"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/06131948/a3574d63aef5c47eff8577385a0528025d6b2ac2f1f06e46440c18c335efa199-370x492.jpg?t=1452755626",
+          "subtitle": "Spotlight",
+          "key": "actor-in-a-supporting-role-mark-ruffalo",
+          "title": "Mark Ruffalo"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/06121743/ae952f77a11b7bbd1e0ce3eb3adbbf5920a56efab32a42dc1ed8068f87e60621-370x492.jpg?t=1452753542",
+          "subtitle": "Bridge of Spies",
+          "key": "actor-in-a-supporting-role-mark-rylance",
+          "title": "Mark Rylance"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07124458/1c84e40b374b425557f8b58f2a6dc58f8de56f1fd06afc9e0057be96b942dd24-370x492.jpg?t=1452753998",
+          "subtitle": "Creed",
+          "key": "actor-in-a-supporting-role-sylvester-stallone",
+          "title": "Sylvester Stallone"
+        }
+      ],
+      "key": "actor-in-a-supporting-role",
+      "title": "Actor in a Supporting Role"
+    },
+    {
+      "nominees": [
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07115425/77c96822d2cf3adc31f0321808e9659f8a2d381503b1fcb3f773d40c1caf25be-370x492.jpg?t=1452753744",
+          "subtitle": "Sandy Powell",
+          "key": "costume-design-carol",
+          "title": "Carol"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07121635/08de936ad9336fbcd0385cc647277297fd28d6ce2ccd777022bbfa93fa3e56e5-370x492.jpg?t=1452753931",
+          "subtitle": "Sandy Powell",
+          "key": "costume-design-cinderella",
+          "title": "Cinderella"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07125153/1641d8e4f3d7ba23de6fe7aca6ce9bf20a154577c556007fd643363e99f5f925-370x492.jpg?t=1452758459",
+          "subtitle": "Paco Delgado",
+          "key": "costume-design-the-danish-girl",
+          "title": "The Danish Girl"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07124325/5fe7fe4d97e8d1f863f873e889a2193789b6470e5e6ddae5529305e177bf8ed7-370x492.jpg?t=1452758273",
+          "subtitle": "Jenny Beavan",
+          "key": "costume-design-mad-max-fury-road",
+          "title": "Mad Max: Fury Road"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/06180744/773bddf4631d268b7a1d8fe196700c54db8e328aec2f9da422dd9d464859ec41-370x492.jpg?t=1452760712",
+          "subtitle": "Jacqueline West",
+          "key": "costume-design-the-revenant",
+          "title": "The Revenant"
+        }
+      ],
+      "key": "costume-design",
+      "title": "Costume Design"
+    },
+    {
+      "nominees": [
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07141530/3ce04f330ca243780887da47608a36e2119674fc89c02e26397d555d83a8f63e-370x492.jpg?t=1452754200",
+          "subtitle": "Colombia; Directed by Ciro Guerra",
+          "key": "foreign-language-film-embrace-of-the-serpent",
+          "title": "Embrace of the Serpent"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07105712/7faf01b56697bf65f160fe65a6902a48ad36c8c5b91bc63ac50dcb9a973c746d-370x492.jpg?t=1452755485",
+          "subtitle": "France; Directed by Deniz Gamze Ergüven",
+          "key": "foreign-language-film-mustang",
+          "title": "Mustang"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/12202606/3c56be09496ed7a4be5a140f081d73f87e770f8eb9541d5a56c34114629a3dbd-370x492.jpg?t=1452755527",
+          "subtitle": "Hungary; Directed by László Nemes",
+          "key": "foreign-language-film-son-of-saul",
+          "title": "Son of Saul"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/06100958/4a573f13b94af904296bb5458840c12cb1ab9072545abce54a06fef37595eab0-370x492.jpg?t=1452755760",
+          "subtitle": "Jordan; Directed by Naji Abu Nowar",
+          "key": "foreign-language-film-theeb",
+          "title": "Theeb"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/14155250/67c012094d40896a0a02c30dd9dd76034dbbaed009030dc32440010405e6d577-370x492.jpg?t=1452858768",
+          "subtitle": "Denmark; Directed by Tobias Lindholm",
+          "key": "foreign-language-film-a-war",
+          "title": "A War"
+        }
+      ],
+      "key": "foreign-language-film",
+      "title": "Foreign Language Film"
+    },
+    {
+      "nominees": [
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/05143148/58e7f25de50280a04cffbd77fc197ada28cf12c31732abe84df5c3d889a22507-370x492.jpg?t=1452752893",
+          "subtitle": "Charlie Kaufman, Duke Johnson and Rosa Tran",
+          "key": "animated-feature-film-anomalisa",
+          "title": "Anomalisa"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/14155616/100880d099b56d8da7cce62c0939f79a8e7224e472d1cf65d40bdcba8d7f2892-370x492.jpg?t=1452787232",
+          "subtitle": "Alê Abreu",
+          "key": "animated-feature-film-boy-and-the-world",
+          "title": "Boy and the World"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/07174757/d69fb0d55323f1d70fd91d2f63e041fa0f56367d59eb24a8e3d22d3b8c7e34cd-370x492.jpg?t=1452754849",
+          "subtitle": "Pete Docter and Jonas Rivera",
+          "key": "animated-feature-film-inside-out",
+          "title": "Inside Out"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/12201545/a99636f3ff90a57304d489b92e3ec1ffe55c41ae2df9027895869a3a1c404441-370x492.jpg?t=1452755442",
+          "subtitle": "Mark Burton and Richard Starzak",
+          "key": "animated-feature-film-shaun-the-sheep-movie",
+          "title": "Shaun the Sheep Movie"
+        },
+        {
+          "image_url": "http://s3.amazonaws.com/oscars-img-abc/wp-content/uploads/2016/01/14160321/4de4dc0f508058c9791428ef213f85997721a422c2c7f665ce9d350bddb16e3b-370x492.jpg?t=1453825519",
+          "subtitle": "Hiromasa Yonebayashi and Yoshiaki Nishimura",
+          "key": "animated-feature-film-when-marnie-was-there",
+          "title": "When Marnie Was There"
+        }
+      ],
+      "key": "animated-feature-film",
+      "title": "Animated Feature Film"
+    }
+  ]
+}

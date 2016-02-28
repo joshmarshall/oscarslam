@@ -33,10 +33,11 @@ class TestVoteHandler(HandlerTestCase):
         response = self.authenticated_fetch(
             self.vote_category_path(category.key))
         self.assertEqual(200, response.code)
-        self.assertTrue(category.title in response.body)
+        response_body = response.body.decode("utf8")
+        self.assertTrue(category.title in response_body)
         for nominee in category.nominees:
-            self.assertTrue(nominee.title in response.body)
-            self.assertTrue(nominee.image_url() in response.body)
+            self.assertTrue(nominee.title in response_body)
+            self.assertTrue(nominee.image_url() in response_body)
 
     def test_vote_id_post(self):
         category = self.categories()[0]

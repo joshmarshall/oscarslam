@@ -1,0 +1,10 @@
+{
+  "project": "oscarslam",
+  "description": "Oscar party competition app.",
+  "maintainer": "Josh Marshall <admin@oscarslam.com>",
+  "build_depends": ["git-core", "libev4", "libev-dev"],
+  "depends": ["libev4"],
+  "install": {
+    "data/*.json": "/opt/oscarslam/data/"
+  }
+}

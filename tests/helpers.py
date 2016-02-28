@@ -102,6 +102,10 @@ class FakeStore(object):
         self.save(instance)
         return instance
 
+    def delete(self, model, key):
+        full_id = "{}.{}".format(model.__name__, key)
+        del self._data[full_id]
+
 
 from tornado.web import RequestHandler, Application as TornadoApplication
 

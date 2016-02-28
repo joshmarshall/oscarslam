@@ -101,15 +101,13 @@ class RaxQueue(object):
                 "Client-Id": self.send_client_id}, raise_error=False)
 
         if response.code != 201:
-            print "Failed to push message: {} {}".format(
-                response.code, response.body)
+            logging.error("Failed to push message: {} {}".format(
+                response.code, response.body))
             raise gen.Return({
                 "status": "failed",
                 "code": response.code,
                 "body": response.body
             })
-
-        print response.body
 
         body = json.loads(response.body)
         raise gen.Return({

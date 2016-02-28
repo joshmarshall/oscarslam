@@ -9,9 +9,7 @@ class EventQueue(object):
         self.subscribers = []
         self.interval = 5
         self.last_time = time.time()
-
-        future = self.rax_queue.connect()
-        future.add_done_callback(self.on_connected)
+        self.ioloop.add_callback(self.fetch)
 
     def reconnect(self):
         self.ioloop.add_timeout(time.time() + 30, self.on_reconnect)
@@ -25,7 +23,6 @@ class EventQueue(object):
         if result["status"] != "success":
             print "Could not connect to RAX: {}".format(result)
             return self.reconnect()
-
         self.ioloop.add_callback(self.fetch)
 
     def fetch(self):
