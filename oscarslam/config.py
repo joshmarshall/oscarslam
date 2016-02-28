@@ -39,6 +39,7 @@ def _populate_contests(folder):
 BASE_DIR = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
 
 PORT = _default("PORT", 8000, int)
+PROCESSES = _default("PROCESSES", 0, int)
 COOKIE_SECRET = _default("COOKIE_SECRET", "OVERWRITE")
 STATIC_FOLDER = _default("STATIC_FOLDER", os.path.join(BASE_DIR, "static"))
 VIEW_FOLDER = _default("VIEW_FOLDER", os.path.join(BASE_DIR, "views"))

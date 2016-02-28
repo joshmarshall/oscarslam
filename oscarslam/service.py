@@ -42,7 +42,7 @@ def main():
 
     logging.info("Listening on: {0}".format(config.PORT))
     sockets = bind_sockets(config.PORT)
-    tornado.process.fork_processes(0)
+    tornado.process.fork_processes(config.PROCESSES)
 
     ioloop = IOLoop.current()
 
