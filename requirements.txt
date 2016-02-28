@@ -3,3 +3,4 @@ normdb
 pymongo
 tornado
 tornadorax
+certifi==2015.4.28
