@@ -5,6 +5,8 @@
   "build_depends": ["git-core", "libev4", "libev-dev"],
   "depends": ["libev4"],
   "install": {
-    "data/*.json": "/opt/oscarslam/data/"
+    "data/*.json": "/opt/oscarslam/data/",
+    "static/*": "/opt/oscarslam/static/",
+    "views/*": "/opt/oscarslam/views/"
   }
 }

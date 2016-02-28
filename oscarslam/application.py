@@ -45,10 +45,9 @@ class Application(TornadoApplication):
 
     def __init__(self, store, mailgun, queue):
         cookie_secret = config.COOKIE_SECRET
-        view_path = os.path.join(BASE_DIR, "views")
-        static_path = os.path.join(BASE_DIR, "static")
         super(Application, self).__init__(
-            ROUTES, template_path=view_path, static_path=static_path,
-            cookie_secret=cookie_secret, store=store, messages=MESSAGES,
+            ROUTES, template_path=config.VIEW_FOLDER,
+            static_path=config.STATIC_FOLDER, cookie_secret=cookie_secret,
+            store=store, messages=MESSAGES,
             login_url="/?message=login_required", mailgun=mailgun,
             debug=config.DEBUG, queue=queue)

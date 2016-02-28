@@ -36,9 +36,12 @@ def _populate_contests(folder):
         contests[contest_name] = json_file
     return contests
 
+BASE_DIR = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
 
 PORT = _default("PORT", 8000, int)
 COOKIE_SECRET = _default("COOKIE_SECRET", "OVERWRITE")
+STATIC_FOLDER = _default("STATIC_FOLDER", os.path.join(BASE_DIR, "static"))
+VIEW_FOLDER = _default("VIEW_FOLDER", os.path.join(BASE_DIR, "views"))
 PASSWORD_SALT = _default("PASSWORD_SALT", "OVERWRITE")
 MAILGUN_API_URL = _default("MAILGUN_API_URL", "OVERWRITE")
 MAILGUN_API_KEY = _default("MAILGUN_API_KEY", "OVERWRITE")
