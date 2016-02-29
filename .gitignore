@@ -5,3 +5,4 @@ ghostdriver.log
 *.db
 .venv
 .env
+artifacts/
