@@ -8,7 +8,6 @@ RUN debfolder --changelog
 RUN dpkg-source -b ./
 RUN mk-build-deps -i ../*.dsc -r -t "apt-get -y"
 RUN dpkg-buildpackage -b
-RUN mkdir -p ./artifacts
-RUN mv ../*.deb ./artifacts
-# /artifacts is a mounted volume, simply copies resulting deb files and exits on docker run
-CMD cp artifacts/*.deb /artifacts
+RUN dpkg -i ../*.deb
+RUN apt-get install -f
+CMD /usr/share/python/oscarslam/bin/oscarslam
