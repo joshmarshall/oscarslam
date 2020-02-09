@@ -21,7 +21,7 @@ class EventQueue(object):
     def on_connected(self, result):
         result = result.result()
         if result["status"] != "success":
-            print "Could not connect to RAX: {}".format(result)
+            print("Could not connect to RAX: {}".format(result))
             return self.reconnect()
         self.ioloop.add_callback(self.fetch)
 
@@ -33,10 +33,10 @@ class EventQueue(object):
         result = result.result()
         if result["status"] != "success":
             if result["code"] in [401, 403]:
-                print "Auth issue -- trying to connect again in 15 secs."
+                print("Auth issue -- trying to connect again in 15 secs.")
                 return self.reconnect()
             else:
-                print "Issue requesting messages: {}".format(result)
+                print("Issue requesting messages: {}".format(result))
                 return self.ioloop.add_timeout(time.time() + 30, self.fetch)
 
         messages = result["messages"]
@@ -60,4 +60,4 @@ class EventQueue(object):
     def on_push(self, result):
         result = result.result()
         if result["status"] != "success":
-            print "Error sending message: {}".format(result)
+            print("Error sending message: {}".format(result))
