@@ -5,9 +5,9 @@ from oscarslam.categories import CATEGORIES
 
 class Votes(Model):
 
-    email = Field(unicode, coerce=unicode)
+    email = Field(str, coerce=str)
     votes = Field(dict, default=dict)
-    contest = Field(unicode, coerce=unicode)
+    contest = Field(str, coerce=str)
 
     @property
     def id(self):

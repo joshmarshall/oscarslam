@@ -4,8 +4,10 @@ from datetime import datetime
 from setuptools import setup, find_packages
 from subprocess import check_output
 
-_LAST_TIME = check_output("git log --pretty=format:%ct -n 1", shell=True)
-_LAST_HASH = check_output("git log --pretty=format:%h -n 1", shell=True)
+_LAST_TIME = check_output(
+    "git log --pretty=format:%ct -n 1", shell=True).decode("utf8")
+_LAST_HASH = check_output(
+    "git log --pretty=format:%h -n 1", shell=True).decode("utf8")
 _CURRENT_VERSION = datetime.fromtimestamp(
     int(_LAST_TIME)).strftime("%Y.%m%d") + "-" + _LAST_HASH
 

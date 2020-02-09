@@ -1,4 +1,4 @@
-import urllib
+import urllib.parse
 
 from oscarslam import config
 from oscarslam.categories import CATEGORIES
@@ -43,7 +43,7 @@ class TestVoteHandler(HandlerTestCase):
         category = self.categories()[0]
         response = self.authenticated_fetch(
             self.vote_category_path(category.key), method="POST",
-            body=urllib.urlencode({
+            body=urllib.parse.urlencode({
                 "nominee": category.nominees[1].key
             }))
         self.assertEqual(302, response.code)

@@ -1,5 +1,6 @@
 import json
-import mock
+from unittest import mock
+from importlib import reload
 import tempfile
 import oscarslam.categories
 import unittest
@@ -11,7 +12,7 @@ class TestCategories(unittest.TestCase):
     def setUp(self):
         super(TestCategories, self).setUp()
         with tempfile.NamedTemporaryFile(suffix=".json") as temp_fp:
-            temp_fp.write(json.dumps(samples.SIMPLE_DATA))
+            temp_fp.write(json.dumps(samples.SIMPLE_DATA).encode("utf8"))
             temp_fp.flush()
             with mock.patch("oscarslam.config") as mock_config:
                 mock_config.CONTESTS = {

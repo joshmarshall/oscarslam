@@ -19,16 +19,21 @@ class TestIndexHandler(HandlerTestCase):
 
     def test_index_invalid_password(self):
         response = self.fetch("/?message=invalid_password")
-        self.assertTrue(MESSAGES["invalid_password"]["text"] in response.body)
+        self.assertTrue(
+            MESSAGES["invalid_password"]["text"] in
+            response.body.decode("utf8"))
 
     def test_index_invalid_email(self):
         response = self.fetch("/?message=invalid_email")
-        self.assertTrue(MESSAGES["invalid_email"]["text"] in response.body)
+        self.assertTrue(
+            MESSAGES["invalid_email"]["text"] in response.body.decode("utf8"))
 
     def test_index_reset_sent(self):
         response = self.fetch("/?message=reset_sent")
-        self.assertTrue(MESSAGES["reset_sent"]["text"] in response.body)
+        self.assertTrue(
+            MESSAGES["reset_sent"]["text"] in response.body.decode("utf8"))
 
     def test_index_password_reset(self):
         response = self.fetch("/?message=password_reset")
-        self.assertTrue(MESSAGES["password_reset"]["text"] in response.body)
+        self.assertTrue(
+            MESSAGES["password_reset"]["text"] in response.body.decode("utf8"))

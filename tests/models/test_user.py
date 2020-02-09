@@ -1,5 +1,5 @@
 import hashlib
-import mock
+from unittest import mock
 import unittest
 import urllib
 
@@ -50,13 +50,14 @@ class TestUser(unittest.TestCase):
     @mock.patch("time.time")
     def test_generate_reset_password_url(self, mock_time):
         mock_time.return_value = 1000
-        expected_signature = hashlib.sha256(
-            "http://localhost/" + "foo@bar.com" + self.user.password +
-            self.user.token + "4600" + config.PASSWORD_SALT).hexdigest()
-        expected_url = "http://localhost/?{0}".format(urllib.urlencode({
+        expected_signature = hashlib.sha256((
+                "http://localhost/" + "foo@bar.com" + self.user.password +
+                self.user.token + "4600" + config.PASSWORD_SALT).encode("utf8")
+            ).hexdigest()
+        expected_url = "http://localhost/?{0}".format(urllib.parse.urlencode({
             "reset_signature": expected_signature,
-            "reset_email": self.user.email,
-            "reset_expiration": 4600
+            "reset_expiration": 4600,
+            "reset_email": self.user.email
         }))
 
         actual_url = self.user.generate_reset_password_url("http://localhost/")

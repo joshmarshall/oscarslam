@@ -1,4 +1,5 @@
 import json
+import logging
 import uuid
 import urlparse
 
@@ -18,7 +19,7 @@ class RaxQueue(object):
             self.protocol, self.identity_host)
         self.queue = parsed_uri.path[1:]
         self.username, self.api_key = auth.split(":")
-        self.client = AsyncHTTPClient(io_loop=self.ioloop)
+        self.client = AsyncHTTPClient()
         self.receive_client_id = uuid.uuid4().hex
         self.send_client_id = uuid.uuid4().hex
         self.next_url = None

@@ -12,6 +12,7 @@ class BaseHandler(RequestHandler):
         if not token_value:
             return None
 
+        token_value = token_value.decode("utf8")
         token = self.store.fetch(Token, token_value)
         if not token:
             return None

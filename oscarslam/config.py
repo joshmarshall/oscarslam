@@ -1,7 +1,7 @@
 import collections
 import glob
 import os
-import urlparse
+import urllib.parse as urlparse
 
 
 _PREFIX = "OSCARSLAM"
@@ -35,6 +35,7 @@ def _populate_contests(folder):
         contest_name, _ = os.path.splitext(os.path.basename(json_file))
         contests[contest_name] = json_file
     return contests
+
 
 BASE_DIR = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
 

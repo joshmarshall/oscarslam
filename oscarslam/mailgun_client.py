@@ -1,6 +1,6 @@
 # simple, IOLoop-based Mailgun client.
 
-import urllib
+import urllib.parse
 
 from tornado import gen
 from tornado.httpclient import AsyncHTTPClient, HTTPRequest, HTTPError
@@ -16,8 +16,8 @@ class MailGunClient(object):
     @gen.coroutine
     def send(self, to_email, from_email, subject, text_message, html_message):
         url = "{0}/messages".format(self.base_url)
-        client = AsyncHTTPClient(io_loop=self.ioloop)
-        body = urllib.urlencode({
+        client = AsyncHTTPClient()
+        body = urllib.parse.urlencode({
             "to": to_email,
             "from": from_email,
             "subject": subject,

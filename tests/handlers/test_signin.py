@@ -1,4 +1,4 @@
-import mock
+from unittest import mock
 import urllib
 
 from tests.helpers import HandlerTestCase
@@ -20,7 +20,7 @@ class TestSignin(HandlerTestCase):
     @mock.patch("time.time")
     def test_signin_post(self, mock_time):
         mock_time.return_value = 100
-        body = urllib.urlencode({
+        body = urllib.parse.urlencode({
             "signin-email": self.user.email,
             "signin-password": "foobar"
         })
@@ -31,7 +31,7 @@ class TestSignin(HandlerTestCase):
         self.assert_message_value("welcome", response)
 
     def test_signin_unknown_email(self):
-        body = urllib.urlencode({
+        body = urllib.parse.urlencode({
             "signin-email": "unknown@email.com",
             "signin-password": "foobar"
         })
@@ -41,7 +41,7 @@ class TestSignin(HandlerTestCase):
         self.assert_message_value("unknown_user", response)
 
     def test_signin_unknown_password(self):
-        body = urllib.urlencode({
+        body = urllib.parse.urlencode({
             "signin-email": self.user.email,
             "signin-password": "whatever"
         })

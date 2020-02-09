@@ -1,6 +1,7 @@
-import mock
+from unittest import mock
 import contextlib
 import os
+from importlib import reload
 from oscarslam import config
 import shutil
 import tempfile
@@ -56,7 +57,7 @@ class TestConfig(unittest.TestCase):
         try:
             path = os.path.join(tempdir, "contest.json")
             with open(path, "wb") as fp:
-                fp.write("CONTENT")
+                fp.write("CONTENT".encode("utf8"))
             with self.mock_environ(OSCARSLAM_DATA_FOLDER=tempdir):
                 self.assertEqual({"contest": path}, config.CONTESTS)
         finally:

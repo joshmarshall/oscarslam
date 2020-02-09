@@ -56,7 +56,7 @@ def main():
         config.MAILGUN_API_URL, config.MAILGUN_API_KEY, ioloop)
 
     application = Application(store=store, mailgun=mailgun, queue=queue)
-    server = HTTPServer(application, io_loop=ioloop, xheaders=True)
+    server = HTTPServer(application, xheaders=True)
     server.add_sockets(sockets)
 
     ioloop.start()

@@ -37,7 +37,7 @@ class TestAdminHandler(HandlerTestCase):
         self.assertEqual(403, response.code)
 
     def test_admin_post_unauthorized(self):
-        fake_body = urllib.urlencode({
+        fake_body = urllib.parse.urlencode({
             "category": "blah",
             "nominee": "blah"
         })
@@ -59,7 +59,7 @@ class TestAdminHandler(HandlerTestCase):
         category_key = self.categories()[0].key
         nominee_key = self.categories()[0].nominees[0].key
         response = self.authenticated_fetch(
-            self.admin_path(), method="POST", body=urllib.urlencode({
+            self.admin_path(), method="POST", body=urllib.parse.urlencode({
                 "category": category_key, "nominee": nominee_key
             }))
         self.assertEqual(302, response.code)

@@ -1,5 +1,5 @@
-import Cookie
-import mock
+import http.cookies as Cookie
+from unittest import mock
 import urllib
 
 from tornado.web import decode_signed_value
@@ -23,7 +23,7 @@ class TestRegister(HandlerTestCase):
         self.assert_redirected_path_equals("/", response)
 
     def test_invalid_name(self):
-        body = urllib.urlencode({
+        body = urllib.parse.urlencode({
             "register-name": "",
             "register-email": "foo2@bar.com",
             "register-password": "foobar"
@@ -34,7 +34,7 @@ class TestRegister(HandlerTestCase):
         self.assert_message_value("invalid_name", response)
 
     def test_invalid_email(self):
-        body = urllib.urlencode({
+        body = urllib.parse.urlencode({
             "register-name": "New User",
             "register-email": "foo",
             "register-password": "foobar"
@@ -45,7 +45,7 @@ class TestRegister(HandlerTestCase):
         self.assert_message_value("invalid_email", response)
 
     def test_invalid_password(self):
-        body = urllib.urlencode({
+        body = urllib.parse.urlencode({
             "register-name": "New User",
             "register-email": "foo2@bar.com",
             "register-password": "foo"
@@ -59,7 +59,7 @@ class TestRegister(HandlerTestCase):
     def test_register_post(self, mock_time):
         mock_time.return_value = 100
         response = self.fetch(
-            "/register", method="POST", body=urllib.urlencode({
+            "/register", method="POST", body=urllib.parse.urlencode({
                 "register-name": "New User",
                 "register-email": "new@user.com",
                 "register-password": "whatever"
@@ -82,4 +82,4 @@ class TestRegister(HandlerTestCase):
         token_value = decode_signed_value(
             config.COOKIE_SECRET, "token", cookie["token"].value)
 
-        self.assertEqual(user.token, token_value)
+        self.assertEqual(user.token, token_value.decode("utf8"))

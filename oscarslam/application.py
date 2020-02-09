@@ -21,16 +21,16 @@ ROUTES = [
         "url": "/contests/{0}".format(config.CONTEST_ID),
         "permanent": False
     }),
-    ("/contests/([\w\-]+)", ContestHandler),
-    ("/contests/([\w\-]+)/events", EventsHandler),
-    ("/contests/([\w\-]+)/leaders", LeadersHandler),
-    ("/contests/([\w\-]+)/votes", VoteRedirectHandler),
-    ("/contests/([\w\-]+)/votes/([\w\-]+)", VoteHandler),
+    (r"/contests/([\w\-]+)", ContestHandler),
+    (r"/contests/([\w\-]+)/events", EventsHandler),
+    (r"/contests/([\w\-]+)/leaders", LeadersHandler),
+    (r"/contests/([\w\-]+)/votes", VoteRedirectHandler),
+    (r"/contests/([\w\-]+)/votes/([\w\-]+)", VoteHandler),
     ("/admin", RedirectHandler, {
         "url": "/admin/{0}".format(config.CONTEST_ID),
         "permanent": False
     }),
-    ("/admin/([\w\-]+)", AdminHandler),
+    (r"/admin/([\w\-]+)", AdminHandler),
     ("/register", RegisterHandler),
     ("/reset_password", ResetPasswordHandler),
     ("/signin", SigninHandler),

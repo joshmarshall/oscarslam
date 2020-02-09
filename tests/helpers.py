@@ -1,10 +1,11 @@
-import Cookie
+import dbm.dumb
 import tempfile
+import http.cookies as Cookie
 from tornado.testing import bind_unused_port
 from tornado.web import decode_signed_value
-import urlparse
+import urllib.parse as urlparse
 
-import mock
+from unittest import mock
 import norm.framework
 from norm.backends.dbm_backend import DBMConnection
 from testnado.handler_test_case import HandlerTestCase as TNHandlerTestCase
@@ -15,6 +16,8 @@ from oscarslam.application import Application
 from oscarslam.mailgun_client import MailGunClient
 from oscarslam.models.user import User, Token
 
+from tornado.web import RequestHandler, Application as TornadoApplication
+
 
 class HandlerTestCase(TNHandlerTestCase):
 
@@ -23,7 +26,7 @@ class HandlerTestCase(TNHandlerTestCase):
         self.cookie_secret = config.COOKIE_SECRET
         self.mailgun_app = mock_mailgun(
             self.io_loop, self.mailgun_handler)
-        self.mailgun_app.listen(self.mailgun_port, io_loop=self.io_loop)
+        self.mailgun_app.listen(self.mailgun_port)
         self.user = self.store.create(
             User, name="Foo Bar", email="foo@bar.com", password="foobar")
         self.token = self.store.create(
@@ -41,6 +44,7 @@ class HandlerTestCase(TNHandlerTestCase):
 
     def get_app(self):
         self.dbfile = tempfile.NamedTemporaryFile(suffix=".db")
+        dbm.dumb.open(self.dbfile.name, 'c')
         self.dburi = "dbm://{}".format(self.dbfile.name)
         self.connection = DBMConnection.from_uri(self.dburi)
         self.store = self.connection.get_store()
@@ -60,6 +64,8 @@ class HandlerTestCase(TNHandlerTestCase):
         self.assertTrue(name in cookie, "expected {} cookie".format(name))
         actual_value = decode_signed_value(
             config.COOKIE_SECRET, name, cookie[name].value)
+        if actual_value:
+            actual_value = actual_value.decode("utf8")
         self.assertEqual(value, actual_value)
 
     def assert_message_value(self, value, response):
@@ -85,8 +91,8 @@ class FakeStore(object):
         self._data[instance_id] = instance_data
 
     @norm.framework.deserialize
-    def fetch(self, model, model_id):
-        full_id = "{}.{}".format(model.__name__, model_id)
+    def fetch(self, model, key):
+        full_id = "{}.{}".format(model.__name__, key)
         return model.from_dict(self._data[full_id])
 
     @norm.framework.deserialize
@@ -105,9 +111,6 @@ class FakeStore(object):
     def delete(self, model, key):
         full_id = "{}.{}".format(model.__name__, key)
         del self._data[full_id]
-
-
-from tornado.web import RequestHandler, Application as TornadoApplication
 
 
 class MessagesHandler(RequestHandler):

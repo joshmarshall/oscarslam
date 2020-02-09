@@ -1,4 +1,4 @@
-import mock
+from unittest import mock
 from testnado.handler_test_case import HandlerTestCase
 from oscarslam.application import Application
 

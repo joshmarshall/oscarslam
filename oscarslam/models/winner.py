@@ -6,7 +6,7 @@ from oscarslam.categories import CATEGORIES
 class Winner(Model):
 
     winners = Field(dict, default=dict)
-    contest = Field(unicode, coerce=unicode)
+    contest = Field(str, coerce=str)
 
     @property
     def id(self):

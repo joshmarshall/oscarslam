@@ -18,4 +18,5 @@ class TestContestHandler(HandlerTestCase):
 
     def test_contest_welcome(self):
         response = self.authenticated_fetch(self.path("?message=welcome"))
-        self.assertTrue("Welcome, {}.".format(self.user.name) in response.body)
+        self.assertTrue(
+            f"Welcome, {self.user.name}." in response.body.decode("utf8"))

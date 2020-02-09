@@ -2,7 +2,7 @@ import hashlib
 import re
 import time
 import urllib
-import urlparse
+import urllib.parse as urlparse
 import uuid
 
 from norm.field import Field
@@ -18,7 +18,7 @@ def hash_password(_, password):
     if len(password) < 6:
         raise InvalidValue("invalid_password")
     new_password = "{}{}".format(config.PASSWORD_SALT, password)
-    return hashlib.sha512(new_password).hexdigest()
+    return hashlib.sha512(new_password.encode("utf8")).hexdigest()
 
 
 def validate_name(_, name):
@@ -29,7 +29,7 @@ def validate_name(_, name):
 
 def validate_email(_, email):
     email = email.lower()
-    if not re.match("^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,10}$", email):
+    if not re.match(r"^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,10}$", email):
         raise InvalidValue("invalid_email")
     return email
 
@@ -40,10 +40,10 @@ def generate_token():
 
 class User(Model):
 
-    name = Field(unicode, coerce=unicode, serialize=validate_name)
-    email = Field(unicode, coerce=unicode, serialize=validate_email)
-    password = Field(unicode, coerce=unicode, serialize=hash_password)
-    token = Field(unicode, coerce=unicode, default=generate_token)
+    name = Field(str, coerce=str, serialize=validate_name)
+    email = Field(str, coerce=str, serialize=validate_email)
+    password = Field(str, coerce=str, serialize=hash_password)
+    token = Field(str, coerce=str, default=generate_token)
     admin = Field(bool, default=False)
 
     def __init__(self, name, email, password):
@@ -57,12 +57,12 @@ class User(Model):
 
     def generate_reset_password_url(self, base_url, expiration=None):
         expiration = str(int(expiration or time.time() + _RESET_EXPIRATION))
-        signature = hashlib.sha256(
-            base_url + self.email + self.password + self.token +
-            expiration + config.PASSWORD_SALT).hexdigest()
+        raw_value = base_url + self.email + self.password + self.token + \
+            expiration + config.PASSWORD_SALT
+        signature = hashlib.sha256(raw_value.encode("utf8")).hexdigest()
 
         # won't be friendly with query parameters.
-        url = "{0}?{1}".format(base_url, urllib.urlencode({
+        url = "{0}?{1}".format(base_url, urllib.parse.urlencode({
             "reset_signature": signature,
             "reset_expiration": expiration,
             "reset_email": self.email
@@ -86,8 +86,8 @@ class User(Model):
 
 class Token(Model):
 
-    token = Field(unicode, coerce=unicode)
-    email = Field(unicode, coerce=unicode)
+    token = Field(str, coerce=str)
+    email = Field(str, coerce=str)
 
     def __init__(self, email, token):
         self.email = email
