@@ -1,3 +1,4 @@
+import asyncio
 import time
 
 
@@ -15,7 +16,7 @@ class EventQueue(object):
         self.ioloop.add_timeout(time.time() + 30, self.on_reconnect)
 
     def on_reconnect(self):
-        future = self.rax_queue.connect()
+        future = asyncio.ensure_future(self.rax_queue.connect())
         future.add_done_callback(self.on_connected)
 
     def on_connected(self, result):
@@ -26,7 +27,7 @@ class EventQueue(object):
         self.ioloop.add_callback(self.fetch)
 
     def fetch(self):
-        future = self.rax_queue.fetch_messages()
+        future = asyncio.ensure_future(self.rax_queue.fetch_messages())
         future.add_done_callback(self.on_messages)
 
     def on_messages(self, result):
@@ -54,7 +55,8 @@ class EventQueue(object):
         self.subscribers.append(func)
 
     def push(self, message):
-        future = self.rax_queue.push_message(message, 60)
+        future = asyncio.ensure_future(
+            self.rax_queue.push_message(message, 60))
         future.add_done_callback(self.on_push)
 
     def on_push(self, result):
