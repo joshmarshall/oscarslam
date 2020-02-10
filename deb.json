@@ -2,8 +2,11 @@
   "project": "oscarslam",
   "description": "Oscar party competition app.",
   "maintainer": "Josh Marshall <admin@oscarslam.com>",
-  "build_depends": ["git-core", "libev4", "libev-dev"],
+  "build_depends": ["git-core", "libev4", "libev-dev", "python3", "python3-dev", "python3-pip", "python3-setuptools"],
   "depends": ["libev4"],
+  "rules": {
+    "extra_build_options": "override_dh_virtualenv:\n\tdh_virtualenv --python python3"
+  },
   "install": {
     "data/*.json": "/opt/oscarslam/data/",
     "static/*": "/opt/oscarslam/static/",

@@ -20,19 +20,13 @@ CONNECTIONS = {
 }
 
 
-def wait_for_future(f):
-    ioloop = IOLoop.current()
-    f.add_done_callback(lambda _: ioloop.stop())
-    ioloop.start()
-    return f.result()
-
-
 def get_rax_queue(ioloop):
     client = IdentityClient(
         config.QUEUE.identity_url, config.QUEUE.credentials, ioloop)
-    wait_for_future(client.authorize())
+    IOLoop.current().run_sync(client.authorize)
     queue_service = client.build_service("rax:queues")
-    queue = wait_for_future(queue_service.fetch_queue(config.QUEUE.queue))
+    queue = IOLoop.current().run_sync(
+        lambda: queue_service.fetch_queue(config.QUEUE.queue))
     return EventQueue(queue, ioloop)
 
 
